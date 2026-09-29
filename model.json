@@ -1,0 +1,238 @@
+{
+ "version": "1.0",
+ "kind": "logistic_regression",
+ "trained_utc": "2026-09-20T07:05:43Z",
+ "features": [
+  "lake_area_km2",
+  "lake_growth_pct_yr",
+  "dam_type",
+  "headwall_slope_deg",
+  "glacier_area_km2",
+  "precip_anomaly_pct",
+  "temp_anomaly_c",
+  "downstream_exposure"
+ ],
+ "labels": {
+  "lake_area_km2": "Lake / water-body area (km\u00b2)",
+  "lake_growth_pct_yr": "Lake expansion rate (%/yr)",
+  "dam_type": "Dam type (bedrock\u2192ice/debris)",
+  "headwall_slope_deg": "Headwall slope above source (\u00b0)",
+  "glacier_area_km2": "Feeding glacier area (km\u00b2)",
+  "precip_anomaly_pct": "Precipitation anomaly (%)",
+  "temp_anomaly_c": "Temperature anomaly (\u00b0C)",
+  "downstream_exposure": "Downstream exposure index (0-1)"
+ },
+ "mean": [
+  0.437746,
+  9.289094,
+  0.797872,
+  33.758843,
+  4.175325,
+  31.404535,
+  1.312029,
+  0.40101
+ ],
+ "scale": [
+  0.510515,
+  10.717038,
+  0.693124,
+  11.008963,
+  2.710578,
+  63.48005,
+  0.585154,
+  0.2102
+ ],
+ "coef": [
+  -0.046716,
+  0.626274,
+  0.285313,
+  0.411452,
+  0.226181,
+  0.125745,
+  0.002585,
+  0.445317
+ ],
+ "intercept": -0.128839,
+ "train_min": [
+  0.0,
+  0.0,
+  0.0,
+  8.0,
+  0.0,
+  -60.0,
+  -0.2,
+  0.02
+ ],
+ "train_max": [
+  3.2,
+  120.0,
+  2.0,
+  65.2441,
+  12.1142,
+  375.0,
+  2.8661,
+  0.98
+ ],
+ "n_rows": 470,
+ "n_positive": 151,
+ "n_documented": 30,
+ "metrics": {
+  "auc_in_sample": 0.779,
+  "brier": 0.188,
+  "loo_event_accuracy": 0.933,
+  "loo_n": 30
+ },
+ "loo": [
+  {
+   "event": "NP-RASUWA-2026",
+   "y": 1,
+   "p": 1.0
+  },
+  {
+   "event": "IN-KEDARNATH-2013",
+   "y": 1,
+   "p": 0.986
+  },
+  {
+   "event": "IN-SLHONAK-2023",
+   "y": 1,
+   "p": 0.836
+  },
+  {
+   "event": "NP-RASUWA-2025",
+   "y": 1,
+   "p": 0.999
+  },
+  {
+   "event": "IN-CHAMOLI-2021",
+   "y": 1,
+   "p": 0.799
+  },
+  {
+   "event": "NP-DIGTSHO-1985",
+   "y": 1,
+   "p": 0.625
+  },
+  {
+   "event": "NP-TAMPOKHARI-1998",
+   "y": 1,
+   "p": 0.575
+  },
+  {
+   "event": "NP-SETI-2012",
+   "y": 1,
+   "p": 0.755
+  },
+  {
+   "event": "NP-BHOTEKOSHI-2016",
+   "y": 1,
+   "p": 0.865
+  },
+  {
+   "event": "CN-CIRENMACO-1981",
+   "y": 1,
+   "p": 0.744
+  },
+  {
+   "event": "CN-ZHANGZANGBO-1981",
+   "y": 1,
+   "p": 0.7
+  },
+  {
+   "event": "BT-LUGGYE-1994",
+   "y": 1,
+   "p": 0.664
+  },
+  {
+   "event": "PK-SHISPER-2019",
+   "y": 1,
+   "p": 0.991
+  },
+  {
+   "event": "PK-KHURDOPIN-2017",
+   "y": 1,
+   "p": 0.983
+  },
+  {
+   "event": "IN-GYA-2014",
+   "y": 1,
+   "p": 0.679
+  },
+  {
+   "event": "NP-BARUNTSE-2017",
+   "y": 1,
+   "p": 0.617
+  },
+  {
+   "event": "CN-JIALONG-2002",
+   "y": 1,
+   "p": 0.733
+  },
+  {
+   "event": "NP-HUMLA-2025",
+   "y": 1,
+   "p": 0.806
+  },
+  {
+   "event": "IN-SOUTHLHONAK-PRE",
+   "y": 0,
+   "p": 0.774
+  },
+  {
+   "event": "NP-IMJA-STABLE",
+   "y": 0,
+   "p": 0.463
+  },
+  {
+   "event": "NP-TSHOROLPA-STABLE",
+   "y": 0,
+   "p": 0.51
+  },
+  {
+   "event": "NP-THULAGI-STABLE",
+   "y": 0,
+   "p": 0.41
+  },
+  {
+   "event": "BT-THORTHORMI-STABLE",
+   "y": 0,
+   "p": 0.497
+  },
+  {
+   "event": "IN-SAMITI-STABLE",
+   "y": 0,
+   "p": 0.112
+  },
+  {
+   "event": "IN-GURUDONGMAR-STABLE",
+   "y": 0,
+   "p": 0.093
+  },
+  {
+   "event": "IN-TSOMGO-STABLE",
+   "y": 0,
+   "p": 0.111
+  },
+  {
+   "event": "NP-GOKYO-STABLE",
+   "y": 0,
+   "p": 0.169
+  },
+  {
+   "event": "IN-ROOPKUND-STABLE",
+   "y": 0,
+   "p": 0.097
+  },
+  {
+   "event": "IN-CHANDRATAL-STABLE",
+   "y": 0,
+   "p": 0.111
+  },
+  {
+   "event": "NP-PANCHPOKHARI-STABLE",
+   "y": 0,
+   "p": 0.11
+  }
+ ],
+ "dataset_status": "compiled \u2014 3 documented case rows, 27 literature rows, 440 sampled rows with deliberately overlapping classes and ~12-14% label noise. Container had no network access, so the raw ICIMOD / Zenodo / COOLR inventories could not be downloaded. Prototype scoring model, not a validated predictor."
+}

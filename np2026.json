@@ -1,0 +1,963 @@
+{
+ "id": "np2026",
+ "short": "Nepal · Rasuwa 2026",
+ "title": "Rasuwa–Bhotekoshi Ice-Rock Avalanche & Debris Flood",
+ "country": "Nepal",
+ "hazard": "Ice-rock avalanche → temporary blockage → debris flood",
+ "hazardShort": "Ice-Rock Avalanche / Debris Flood",
+ "eventTime": "26 Aug 2026, 08:37 NPT",
+ "eventDate": "26 Aug 2026",
+ "tz": "NPT (UTC+5:45)",
+ "incidentId": "HKH-NP-2026-001",
+ "region": "Lhende Khola → Bhotekoshi → Trishuli, Rasuwa District",
+ "detectedChange": "Ice-rock detachment on the north face of Langtang Lirung; channel blockage in the Lhende Khola",
+ "changePct": "M5.2 landslide-source seismic signal",
+ "summary": "A slab of rock and glacier ice detached from the north face of Langtang Lirung (7,227 m) shortly after 08:37 NPT on 26 August 2026, fell about 1,200 m into the Lhende Khola on the Nepal–China border, briefly blocked the channel and released a sediment-laden debris flood down the Bhotekoshi and Trishuli. ICIMOD stresses this was an ice-rock avalanche cascade, not a classic glacial-lake outburst: no pre-existing lake has been shown to be the source, and DHM reported no heavy rainfall in Rasuwa immediately before the flood. The July 2025 Rasuwagadhi flood is precursor context only.",
+ "kpi": {
+  "hazardStatus": "HIGH RISK",
+  "zoneFoot": "Rasuwa · Nuwakot · Dhading",
+  "areaKm2": {
+   "v": "≈40 km road corridor",
+   "s": "V",
+   "src": 2
+  },
+  "alerts": {
+   "v": "09",
+   "s": "V",
+   "src": 2,
+   "foot": "NDRRMA situation reports issued"
+  }
+ },
+ "mparams": [
+  {
+   "icon": "🏔️",
+   "label": "Glacier Geometry",
+   "status": "high",
+   "metrics": [
+    [
+     "Source Peak",
+     "Langtang Lirung, 7,227 m"
+    ],
+    [
+     "Detachment Elevation",
+     "≈5,200 m"
+    ],
+    [
+     "Fall Height",
+     "≈1,200 m"
+    ],
+    [
+     "Ice Thickness",
+     "No ground/radar survey available"
+    ]
+   ],
+   "source": "ICIMOD field/satellite reconstruction of the 26 Aug 2026 detachment. Elevation and fall height as stated by ICIMOD — verified. Ice thickness: not measured."
+  },
+  {
+   "icon": "❄️",
+   "label": "Ice / Snow",
+   "status": "high",
+   "metrics": [
+    [
+     "Failure Type",
+     "Rock + glacier ice slab"
+    ],
+    [
+     "Seismic Signature",
+     "M5.2, reclassified by USGS as landslide"
+    ],
+    [
+     "Pre-existing Lake",
+     "None identified as source"
+    ],
+    [
+     "Glacier Area (catchment)",
+     "≈4.6 km² — approximate"
+    ]
+   ],
+   "source": "USGS reclassified the initially reported M4.4 earthquake as an M5.2 landslide source — verified. Glacier area is an approximate catchment estimate, not a measured inventory value."
+  },
+  {
+   "icon": "🪨",
+   "label": "Crack & Instability",
+   "status": "high",
+   "metrics": [
+    [
+     "Slope Failure",
+     "Confirmed on north face"
+    ],
+    [
+     "Channel Blockage",
+     "Confirmed, Lhende Khola"
+    ],
+    [
+     "Secondary Release",
+     "28 Aug 2026 barrier-lake breach"
+    ]
+   ],
+   "source": "ICIMOD and CARE/ICIMOD reporting: a barrier lake formed by the initial debris broke on 28 August, briefly halting rescue in Nepal and China — verified."
+  },
+  {
+   "icon": "💧",
+   "label": "Glacial Lakes",
+   "status": "high",
+   "metrics": [
+    [
+     "Barrier Lake Area",
+     "0.11 km² (formed after the collapse)"
+    ],
+    [
+     "Origin",
+     "Landslide-dammed, not glacial"
+    ],
+    [
+     "Outlet Condition",
+     "Unstable — breached 28 Aug"
+    ],
+    [
+     "Classification",
+     "NOT a classic GLOF"
+    ]
+   ],
+   "source": "NDRRMA warned of continuing flood risk from an estimated 0.11 km² lake formed upstream by the blockage of the Lhende Khola (via WFP situation report) — verified. Any lake here is a temporary landslide-dammed lake, not a glacial lake."
+  },
+  {
+   "icon": "🌊",
+   "label": "Hydrology",
+   "status": "high",
+   "metrics": [
+    [
+     "River Rise at Galchhi",
+     "≈9 m in 30 minutes"
+    ],
+    [
+     "Gauge Height, Galchhi",
+     "8.5 m"
+    ],
+    [
+     "Gauges Destroyed",
+     "3 — Rasuwagadhi, Syabrubesi, Betrawati"
+    ],
+    [
+     "Flood Volume at Devghat",
+     "57.4 million m³ (≈19.96 M m³ above base flow)"
+    ],
+    [
+     "Travel Distance",
+     "Damage traced ≥100 km downstream"
+    ]
+   ],
+   "source": "DHM gauge record and NDRRMA volume estimate, compiled in the ICIMOD/partner story map — verified. Galchhi is ≈88 km downstream of the source."
+  },
+  {
+   "icon": "☁️",
+   "label": "Weather / Climate",
+   "status": "normal",
+   "metrics": [
+    [
+     "Local Rainfall Trigger",
+     "Ruled out by DHM"
+    ],
+    [
+     "Rainfall, Rasuwa",
+     "No substantial rain before the event"
+    ],
+    [
+     "Tibetan-side Rainfall",
+     "Observed; contribution unclear"
+    ],
+    [
+     "Temperature Anomaly",
+     "+2.0 °C — approximate"
+    ]
+   ],
+   "source": "Nepal DHM reported no substantial rainfall in Rasuwa immediately before the flood — verified. This is the key reason investigators looked upstream. Temperature anomaly is an approximate regional figure, not a station measurement."
+  },
+  {
+   "icon": "⛰️",
+   "label": "Terrain",
+   "status": "high",
+   "metrics": [
+    [
+     "Headwall Slope",
+     "≈55° — approximate"
+    ],
+    [
+     "Valley Form",
+     "Narrow, steep gorge"
+    ],
+    [
+     "Deposition Point",
+     "Rasuwagadhi — first flat riverbed"
+    ],
+    [
+     "Aspect",
+     "North-facing"
+    ]
+   ],
+   "source": "ICIMOD explanation of why Rasuwagadhi and Timure were worst hit: the Lhende drops from over 5,000 m to about 1,800 m at the border, and the first flat ground is where the dry port, truck park and hydropower works were built — verified narrative; slope value approximate."
+  },
+  {
+   "icon": "🌉",
+   "label": "Infrastructure",
+   "status": "high",
+   "metrics": [
+    [
+     "Bridges Destroyed",
+     ">80"
+    ],
+    [
+     "Road Damaged",
+     "≈40 km"
+    ],
+    [
+     "Hydropower Damaged",
+     "13 projects (NEA); 14 energy facilities (WFP)"
+    ],
+    [
+     "Capacity Off-Grid",
+     "≈431 MW"
+    ],
+    [
+     "Key Sites",
+     "Rasuwagadhi, Chilime, Upper Trishuli 3A/3B, Trishuli, Devighat"
+    ]
+   ],
+   "source": "WFP situation report (≈40 km roads, >80 bridges, ≥14 hydropower/energy facilities) and Nepal Electricity Authority (13 projects, ≈431 MW off-grid, ≈470 MW under construction damaged) — verified as reported."
+  },
+  {
+   "icon": "🏘️",
+   "label": "Exposure",
+   "status": "high",
+   "metrics": [
+    [
+     "Deaths (Nepal)",
+     "1,410 — as reported, still changing"
+    ],
+    [
+     "Missing (Nepal)",
+     "6,145 — as reported"
+    ],
+    [
+     "Deaths (Tibet AR, China)",
+     "43; 519 missing"
+    ],
+    [
+     "Districts with Missing Persons",
+     "62"
+    ],
+    [
+     "Border Crossing Traffic",
+     ">100,000 users in H1 2026"
+    ]
+   ],
+   "source": "Figures as reported by NDRRMA / Nepal Police and compiled on the Wikipedia \"2026 Nepal floods\" index, retrieved 20 Sep 2026. Search, rescue and identification are ongoing — these numbers change and are NOT final."
+  },
+  {
+   "icon": "🚑",
+   "label": "Response Resources",
+   "status": "anomaly",
+   "metrics": [
+    [
+     "Security Personnel Mobilised",
+     "21,011"
+    ],
+    [
+     "People Rescued",
+     "11,814"
+    ],
+    [
+     "Foreign Nationals Rescued",
+     "253"
+    ],
+    [
+     "Priority Areas",
+     "Syafru, Timure, NE Rasuwa"
+    ],
+    [
+     "Hydropower Site Operations",
+     "Trishuli 3A, Haku Besi, Trishuli 3B, Chilime"
+    ]
+   ],
+   "source": "NDRRMA Rasuwa–Bhotekoshi Search, Rescue and Relief Situation Report #01, 1 Sep 2026 — verified as reported on that date."
+  }
+ ],
+ "ml": {
+  "lake_area_km2": 0.11,
+  "lake_growth_pct_yr": 45,
+  "dam_type": 2,
+  "headwall_slope_deg": 55,
+  "glacier_area_km2": 4.6,
+  "precip_anomaly_pct": -30,
+  "temp_anomaly_c": 2,
+  "downstream_exposure": 0.88
+ },
+ "mlNotes": {
+  "lake_area_km2": "V — 0.11 km² barrier lake (NDRRMA via WFP)",
+  "lake_growth_pct_yr": "S — proxy only; a blockage is instantaneous, there is no real growth series",
+  "dam_type": "V — ice/debris dam",
+  "headwall_slope_deg": "A — DEM-scale estimate",
+  "glacier_area_km2": "A — catchment estimate",
+  "precip_anomaly_pct": "V — DHM: no heavy rain",
+  "temp_anomaly_c": "A — regional estimate",
+  "downstream_exposure": "A — derived from exposure counts"
+ },
+ "why": [
+  "Ice-rock slab detached from the Langtang Lirung north face and fell ≈1,200 m into the Lhende Khola (ICIMOD)",
+  "Channel blockage formed and released — barrier lake of ≈0.11 km² later breached on 28 Aug (NDRRMA)",
+  "Trishuli rose ≈9 m in 30 minutes at Galchhi, 88 km downstream — almost no warning time",
+  "Dense border infrastructure (dry port, truck park, hydropower) sits on the first flat riverbed at Rasuwagadhi",
+  "Rainfall was ruled out by DHM, so no rainfall-based warning would have been triggered"
+ ],
+ "impact": {
+  "hazard": "Ice-Rock Avalanche → Debris Flood",
+  "severity": "HIGH",
+  "area": "≈40 km road corridor damaged",
+  "exposure": "62 districts reported missing persons",
+  "safeZone": "Dhunche (1,960 m, district HQ)"
+ },
+ "rescue": {
+  "startLabel": "Forward Rescue Base — Syabrubesi",
+  "zoneLabel": "Timure / Rasuwagadhi — border settlement & dry port",
+  "destLabel": "Dhunche — district HQ relief hub (1,960 m)",
+  "priorities": [
+   [
+    "Priority 1",
+    "Timure Bazaar & Rasuwagadhi dry port — swept away"
+   ],
+   [
+    "Priority 2",
+    "Haku Besi & Mailung — Upper Trishuli 3A worksite"
+   ],
+   [
+    "Priority 3",
+    "Syabrubesi bazaar & Langtang trek trailhead"
+   ]
+  ],
+  "hospital": "Rasuwa District Hospital, Dhunche",
+  "hospitalDist": "≈18 km from forward base",
+  "shelter": "Syabrubesi Relief Camp",
+  "shelterDist": "≈1 km from forward base",
+  "base": "Syabrubesi Forward Base",
+  "roadAcc": "Blocked",
+  "roadAccPill": "pill-red",
+  "blockedCorridor": "Pasang Lhamu Highway (H07), Mailung–Haku section"
+ },
+ "gis": {
+  "center": [
+   28.2,
+   85.34
+  ],
+  "zoom": 11,
+  "baseLL": [
+   28.1625,
+   85.3336
+  ],
+  "zoneLL": [
+   28.2665,
+   85.374
+  ],
+  "destLL": [
+   28.1119,
+   85.2969
+  ],
+  "hospLL": [
+   28.1105,
+   85.2955
+  ],
+  "shelLL": [
+   28.166,
+   85.3355
+  ],
+  "basePop": "<b>Forward Rescue Base — Syabrubesi</b><span class=\"pop-tag\">Helipad &amp; staging area · indicative</span>",
+  "zonePop": "<b>Timure / Rasuwagadhi</b><span class=\"pop-tag\">Worst-hit border settlement · dry port destroyed</span>",
+  "destPop": "<b>Dhunche — District HQ</b><span class=\"pop-tag\">Relief hub, 1,960 m, above the valley floor</span>",
+  "hospPop": "<b>Rasuwa District Hospital, Dhunche</b><span class=\"pop-tag\">Nearest district hospital · approximate location</span>",
+  "shelPop": "<b>Syabrubesi Relief Camp</b><span class=\"pop-tag\">Indicative shelter site</span>",
+  "bridges": [
+   {
+    "ll": [
+     28.2774,
+     85.3777
+    ],
+    "pop": "<b>Rasuwagadhi Friendship Bridge</b><span class=\"pop-tag\">Nepal–China crossing · destroyed (also lost July 2025)</span>"
+   },
+   {
+    "ll": [
+     28.256,
+     85.3715
+    ],
+    "pop": "<b>Timure Bhotekoshi Bridge</b><span class=\"pop-tag\">On the valley-floor route · destroyed</span>"
+   },
+   {
+    "ll": [
+     28.205,
+     85.352
+    ],
+    "pop": "<b>Ghattekhola crossing</b><span class=\"pop-tag\">High-risk crossing — status indicative</span>"
+   }
+  ],
+  "blocked": [
+   {
+    "ll": [
+     28.21,
+     85.354
+    ],
+    "pop": "<b>Blocked Section — valley-floor road</b><span class=\"pop-tag\">Debris and washed-out carriageway · indicative</span>"
+   }
+  ],
+  "routeA": [
+   [
+    28.1625,
+    85.3336
+   ],
+   [
+    28.183,
+    85.339
+   ],
+   [
+    28.205,
+    85.352
+   ],
+   [
+    28.229,
+    85.362
+   ],
+   [
+    28.2665,
+    85.374
+   ],
+   [
+    28.229,
+    85.362
+   ],
+   [
+    28.205,
+    85.352
+   ],
+   [
+    28.1625,
+    85.3336
+   ],
+   [
+    28.14,
+    85.315
+   ],
+   [
+    28.1119,
+    85.2969
+   ]
+  ],
+  "routeB": [
+   [
+    28.1625,
+    85.3336
+   ],
+   [
+    28.188,
+    85.343
+   ],
+   [
+    28.215,
+    85.356
+   ],
+   [
+    28.24,
+    85.364
+   ],
+   [
+    28.2665,
+    85.374
+   ],
+   [
+    28.22,
+    85.356
+   ],
+   [
+    28.175,
+    85.32
+   ],
+   [
+    28.14,
+    85.304
+   ],
+   [
+    28.1119,
+    85.2969
+   ]
+  ],
+  "routeC": [
+   [
+    28.1625,
+    85.3336
+   ],
+   [
+    28.19,
+    85.345
+   ],
+   [
+    28.21,
+    85.354
+   ],
+   [
+    28.24,
+    85.365
+   ],
+   [
+    28.2665,
+    85.374
+   ]
+  ],
+  "roadNet": [
+   [
+    [
+     28.1119,
+     85.2969
+    ],
+    [
+     28.14,
+     85.315
+    ],
+    [
+     28.1625,
+     85.3336
+    ],
+    [
+     28.205,
+     85.352
+    ],
+    [
+     28.2555,
+     85.3702
+    ],
+    [
+     28.2774,
+     85.3777
+    ]
+   ],
+   [
+    [
+     28.1119,
+     85.2969
+    ],
+    [
+     28.06,
+     85.27
+    ],
+    [
+     28.01,
+     85.22
+    ],
+    [
+     27.96,
+     85.183
+    ],
+    [
+     27.92,
+     85.145
+    ]
+   ],
+   [
+    [
+     28.1625,
+     85.3336
+    ],
+    [
+     28.175,
+     85.32
+    ],
+    [
+     28.158,
+     85.305
+    ],
+    [
+     28.135,
+     85.299
+    ]
+   ]
+  ],
+  "flood": [
+   [
+    28.282,
+    85.382
+   ],
+   [
+    28.27,
+    85.376
+   ],
+   [
+    28.25,
+    85.369
+   ],
+   [
+    28.22,
+    85.358
+   ],
+   [
+    28.19,
+    85.344
+   ],
+   [
+    28.16,
+    85.33
+   ],
+   [
+    28.155,
+    85.335
+   ],
+   [
+    28.188,
+    85.35
+   ],
+   [
+    28.218,
+    85.365
+   ],
+   [
+    28.252,
+    85.376
+   ],
+   [
+    28.279,
+    85.388
+   ]
+  ],
+  "floodPop": "<b>Debris-flood corridor — Lhende Khola → Bhotekoshi</b><span class=\"pop-tag\">Approximate extent, redrawn from published ICIMOD/NDRRMA maps</span>",
+  "landslide": [
+   [
+    28.22,
+    85.348
+   ],
+   [
+    28.218,
+    85.362
+   ],
+   [
+    28.195,
+    85.36
+   ],
+   [
+    28.196,
+    85.346
+   ]
+  ],
+  "landslidePop": "<b>Slope-failure / debris section</b><span class=\"pop-tag\">Mailung–Haku corridor · approximate</span>",
+  "routeStats": {
+   "0": {
+    "A": {
+     "dist": "26.4 km",
+     "time": "71 min",
+     "bridges": 2,
+     "risk": "High Risk",
+     "status": "Passable"
+    },
+    "B": {
+     "dist": "31.8 km",
+     "time": "82 min"
+    },
+    "C": {
+     "dist": "14.6 km",
+     "blocked": 0,
+     "status": "Passable"
+    }
+   },
+   "1": {
+    "A": {
+     "dist": "26.4 km",
+     "time": "96 min",
+     "bridges": 3,
+     "risk": "High Risk",
+     "status": "Partial"
+    },
+    "B": {
+     "dist": "31.8 km",
+     "time": "88 min"
+    },
+    "C": {
+     "dist": "14.6 km",
+     "blocked": 1,
+     "status": "Unsafe"
+    }
+   },
+   "2": {
+    "A": {
+     "dist": "26.4 km",
+     "time": "—",
+     "bridges": 3,
+     "risk": "Extreme Risk",
+     "status": "Severed"
+    },
+    "B": {
+     "dist": "31.8 km",
+     "time": "104 min"
+    },
+    "C": {
+     "dist": "14.6 km",
+     "blocked": 2,
+     "status": "Impassable"
+    }
+   }
+  },
+  "routeBReason": "Route B follows the higher Thulo Syabru ridge line instead of the Bhotekoshi valley floor, avoids the destroyed Timure and Rasuwagadhi river crossings, and ends at Dhunche (1,960 m) above the flood corridor. Alignment is indicative — drawn on the mapped road/trail network, not from a documented evacuation order.",
+  "coordSeed": "lat 28.200, lng 85.340"
+ },
+ "team": {
+  "baseLabel": "SYABRUBESI BASE",
+  "areaLabel": "Zone Density Map — Rasuwa / Bhotekoshi Corridor",
+  "base": [
+   28.1625,
+   85.3336
+  ],
+  "zones": [
+   {
+    "id": "Z-01",
+    "name": "Timure Bazaar",
+    "ll": [
+     28.2555,
+     85.3702
+    ],
+    "base": 34,
+    "risk": "crit",
+    "km": 12.4,
+    "access": "Blocked (1 route)",
+    "shelter": "Dhunche Relief Hub"
+   },
+   {
+    "id": "Z-02",
+    "name": "Rasuwagadhi Dry Port",
+    "ll": [
+     28.2774,
+     85.3777
+    ],
+    "base": 26,
+    "risk": "crit",
+    "km": 14.8,
+    "access": "Blocked (1 route)",
+    "shelter": "Dhunche Relief Hub"
+   },
+   {
+    "id": "Z-03",
+    "name": "Haku Besi",
+    "ll": [
+     28.118,
+     85.345
+    ],
+    "base": 18,
+    "risk": "crit",
+    "km": 8.1,
+    "access": "Partial",
+    "shelter": "Syabrubesi Relief Camp"
+   },
+   {
+    "id": "Z-04",
+    "name": "Syabrubesi Bazaar",
+    "ll": [
+     28.1625,
+     85.3336
+    ],
+    "base": 41,
+    "risk": "high",
+    "km": 1.2,
+    "access": "Open",
+    "shelter": "Syabrubesi Relief Camp"
+   },
+   {
+    "id": "Z-05",
+    "name": "Upper Trishuli 3A site",
+    "ll": [
+     28.02,
+     85.2
+    ],
+    "base": 14,
+    "risk": "crit",
+    "km": 21.5,
+    "access": "Partial",
+    "shelter": "Dhunche Relief Hub"
+   },
+   {
+    "id": "Z-06",
+    "name": "Dhunche (District HQ)",
+    "ll": [
+     28.1119,
+     85.2969
+    ],
+    "base": 9,
+    "risk": "mod",
+    "km": 18,
+    "access": "Open",
+    "shelter": "Dhunche Relief Hub"
+   }
+  ]
+ },
+ "alert": {
+  "eventType": "GLOF / Flash Flood",
+  "eventTypeReal": "Ice-rock avalanche → debris flood",
+  "location": "Lhende Khola → Bhotekoshi → Trishuli corridor, Rasuwa",
+  "action": "Move immediately off the Bhotekoshi/Trishuli valley floor to ground above Dhunche level",
+  "actionShort": "Leave the river valley floor — move uphill now",
+  "head": "🚨 HIGH RISK ALERT — HISTORICAL REPLAY",
+  "zone": "Rasuwa District, Nepal",
+  "time": "26 Aug 2026, 08:37 NPT",
+  "source": "Reconstructed from ICIMOD / NDRRMA / DHM public reporting",
+  "relayEvent": "Debris flood (ice-rock avalanche)",
+  "relayZone": "Bhotekoshi–Trishuli corridor",
+  "relayTime": "08:37 NPT",
+  "relayAction": "Move uphill, off the valley floor",
+  "relayExpiry": "30 min"
+ },
+ "report": {
+  "hazardType": "Ice-rock avalanche → debris flood",
+  "detectionTime": "26 Aug 2026, 08:37 NPT (event onset — not a prediction)",
+  "obsSource": "ICIMOD satellite/field reconstruction · USGS seismic · DHM gauges · NDRRMA SitReps",
+  "area": "≈40 km road corridor; damage traced ≥100 km downstream",
+  "evidence": "Satellite imagery, video, M5.2 landslide seismic signal, gauge records",
+  "action": "Evacuate valley floor toward Dhunche (1,960 m)",
+  "route": "Route B — Thulo Syabru ridge line (indicative)"
+ },
+ "notifications": [
+  [
+   "🚨",
+   "Ice-rock avalanche",
+   "Slab detached from Langtang Lirung north face",
+   "risk"
+  ],
+  [
+   "⚠️",
+   "Debris flood",
+   "Trishuli rose ≈9 m in 30 min at Galchhi",
+   "map"
+  ],
+  [
+   "ℹ️",
+   "Barrier lake",
+   "≈0.11 km² lake formed upstream; breached 28 Aug",
+   "monitoring"
+  ],
+  [
+   "✅",
+   "Access note",
+   "Valley-floor road severed; ridge route indicative",
+   "rescue"
+  ]
+ ],
+ "demo": [
+  "Satellite & seismic observation loaded (26 Aug 2026)",
+  "Ice-rock detachment identified on Langtang Lirung",
+  "Risk classified HIGH from documented features",
+  "Debris-flood corridor drawn from published extent maps",
+  "Ridge route away from the Bhotekoshi valley floor",
+  "Rescue team view — Timure, Rasuwagadhi, Haku Besi",
+  "Alert text — what a warning should have said",
+  "Alert relayed to a second demo device",
+  "Dashboard updates with NDRRMA-reported figures"
+ ],
+ "sources": [
+  {
+   "n": "ICIMOD — Kyirong–Rasuwa Flood 2026",
+   "u": "https://www.icimod.org/kyirong-rasuwa-flood-2026-nepal-china-border/",
+   "d": "2026-09-20"
+  },
+  {
+   "n": "ICIMOD press release — major flash flood, Rasuwa",
+   "u": "https://www.icimod.org/press-release/major-flash-flood-sweeps-through-nepals-rasuwa-district-raising-fears-of-further-downstream-flooding/",
+   "d": "2026-09-20"
+  },
+  {
+   "n": "NDRRMA — Rasuwa/Bhotekoshi SitRep #01 (1 Sep 2026)",
+   "u": "https://ndrrma.gov.np/mediafiles/rasuwa/Rasuwa_Flood_SitRep_Temp_ENG_01_01092026.pdf",
+   "d": "2026-09-01"
+  },
+  {
+   "n": "ICIMOD & partners — August 2026 Nepal Trishuli Flood story map",
+   "u": "https://storymaps.arcgis.com/stories/f2b2425eac544929a7d18f4c90b41d66",
+   "d": "2026-09-20"
+  },
+  {
+   "n": "Severe-weather.eu — USGS landslide reclassification (M4.4 → M5.2)",
+   "u": "https://www.severe-weather.eu/global-weather/nepal-tibet-flood-ice-rock-avalanche-usgs-landslide-august-2026-rrc/",
+   "d": "2026-09-20"
+  },
+  {
+   "n": "ADRC compilation of NDRRMA / WFP / OCHA situation reports",
+   "u": "https://www.adrc.asia/publications/disaster_report/pdf/2026/ADRC_FL_NPL_Rasuwa_20260826_EN.pdf",
+   "d": "2026-09-20"
+  },
+  {
+   "n": "Wikipedia — 2026 Nepal floods (index to primary sources; NEA figures)",
+   "u": "https://en.wikipedia.org/wiki/2026_Nepal_floods",
+   "d": "2026-09-20"
+  },
+  {
+   "n": "Down To Earth — ICIMOD probe into the ice-rock avalanche trigger",
+   "u": "https://www.downtoearth.org.in/natural-disasters/did-an-ice-rock-avalanche-originating-from-a-high-altitude-area-trigger-the-trishuli-flash-flood",
+   "d": "2026-09-20"
+  }
+ ],
+ "quality": [
+  [
+   "Event mechanism, timing, fall height",
+   "V",
+   "ICIMOD"
+  ],
+  [
+   "USGS M5.2 landslide-source reclassification",
+   "V",
+   "USGS via severe-weather.eu"
+  ],
+  [
+   "Barrier lake 0.11 km², breach on 28 Aug",
+   "V",
+   "NDRRMA via WFP / CARE-ICIMOD"
+  ],
+  [
+   "9 m rise in 30 min at Galchhi; 8.5 m gauge; 57.4 M m³ at Devghat",
+   "V",
+   "DHM / NDRRMA via story map"
+  ],
+  [
+   "Deaths 1,410 · missing 6,145 (Nepal); 43 dead, 519 missing (Tibet AR)",
+   "V",
+   "as reported, NDRRMA / Nepal Police, retrieved 20 Sep 2026 — still changing"
+  ],
+  [
+   "≈40 km roads, >80 bridges, ≥14 energy facilities; 13 HPPs, ≈431 MW",
+   "V",
+   "WFP SitRep / Nepal Electricity Authority"
+  ],
+  [
+   "Rasuwagadhi 28.2774,85.3777 · Timure 28.2555,85.3702 · Galchhi 27.7961,85.0003",
+   "V",
+   "story map"
+  ],
+  [
+   "Syabrubesi, Dhunche, hospital, shelter, Haku Besi, Trishuli 3A coordinates",
+   "A",
+   "gazetteer-level, not surveyed"
+  ],
+  [
+   "Headwall slope 55°, glacier area 4.6 km², temp anomaly +2.0 °C",
+   "A",
+   "order-of-magnitude estimates"
+  ],
+  [
+   "Flood & landslide polygons",
+   "A",
+   "redrawn by eye from published extent maps"
+  ],
+  [
+   "Routes A / B / C alignments, distances, times, bridge counts",
+   "A",
+   "indicative — drawn on the mapped road network; not documented evacuation routes"
+  ],
+  [
+   "Per-zone people counts in the Rescue Team view",
+   "S",
+   "SIMULATED — no verified live crowd sensing existed"
+  ],
+  [
+   "River-level slider states, \"Active Alerts 09\" as a live count",
+   "S",
+   "UI demonstration only"
+  ]
+ ]
+}

@@ -1,0 +1,980 @@
+{
+ "id": "in2013",
+ "short": "India · Kedarnath 2013",
+ "title": "Kedarnath Disaster — Extreme Rainfall & Chorabari Lake Breach",
+ "country": "India",
+ "hazard": "Extreme rainfall → moraine-dam breach → debris flood",
+ "hazardShort": "Extreme Rainfall / Moraine-Dam Breach",
+ "eventTime": "16 Jun 2013, 17:15 IST → 17 Jun 2013, 06:45 IST",
+ "eventDate": "16–17 Jun 2013",
+ "tz": "IST (UTC+5:30)",
+ "incidentId": "HKH-IN-2013-001",
+ "region": "Chorabari Tal → Mandakini valley, Rudraprayag District, Uttarakhand",
+ "detectedChange": "Chorabari Lake moraine dam breached; lake drained and never reformed",
+ "changePct": "315 mm rain in 24 h at the WIHG Chorabari camp",
+ "summary": "Two events, not one. On the evening of 16 June 2013 torrential rain in the Saraswati and Dudh Ganga catchments sent a debris-laden flood through upper Kedarnath and completely destroyed Rambara. At 06:45 IST on 17 June the moraine dam of Chorabari Tal, about 2 km upstream of the temple, gave way and released a second, larger flash flood down the Mandakini through Gaurikund, Sonprayag, Guptkashi and Agastyamuni. The lake did not reform: the moraine was largely washed away. Roughly 300,000 pilgrims were in the region at the peak of the Char Dham season and there was effectively no warning.",
+ "kpi": {
+  "hazardStatus": "EMERGENCY",
+  "zoneFoot": "Rudraprayag District, Uttarakhand",
+  "areaKm2": {
+   "v": "14 km pilgrim route destroyed",
+   "s": "V",
+   "src": 1
+  },
+  "alerts": {
+   "v": "02",
+   "s": "V",
+   "src": 2,
+   "foot": "Two separate flood events, 16 & 17 June"
+  }
+ },
+ "mparams": [
+  {
+   "icon": "🏔️",
+   "label": "Glacier Geometry",
+   "status": "anomaly",
+   "metrics": [
+    [
+     "Source Glacier",
+     "Chorabari Glacier"
+    ],
+    [
+     "Cirque Width",
+     "≈6 km"
+    ],
+    [
+     "Glacier Area",
+     "≈6.6 km² — approximate"
+    ],
+    [
+     "Ice Thickness",
+     "No ground survey used here"
+    ]
+   ],
+   "source": "Chorabari Glacier sits in a cirque some 6 km wide with meltwater flowing down a narrow steep-sided valley (Wikipedia/Chorabari Lake, citing Negi) — verified description; area figure approximate."
+  },
+  {
+   "icon": "❄️",
+   "label": "Ice / Snow",
+   "status": "anomaly",
+   "metrics": [
+    [
+     "Snowmelt",
+     "Rapid melt of Chorabari Glacier snowpack"
+    ],
+    [
+     "Contribution",
+     "Rain-on-snow amplification"
+    ],
+    [
+     "Avalanche Input",
+     "Reported into the lake (WIHG)"
+    ],
+    [
+     "Water-level Rise",
+     "+7 m before breach"
+    ]
+   ],
+   "source": "WIHG glaciologist D.P. Dobhal (via Dialogue Earth, \"Death of Chorabari lake\"): incessant rain and rapid snowmelt raised the lake level by seven metres — verified as reported."
+  },
+  {
+   "icon": "🪨",
+   "label": "Crack & Instability",
+   "status": "high",
+   "metrics": [
+    [
+     "Moraine Dam",
+     "Unstable, already under pressure"
+    ],
+    [
+     "Breach",
+     "17 Jun 2013, 06:45 IST"
+    ],
+    [
+     "Post-event State",
+     "Lake gone; boulder-strewn flat remains"
+    ],
+    [
+     "Bank Erosion",
+     "Severe along the Mandakini"
+    ]
+   ],
+   "source": "Wikipedia/Chorabari Lake and Dialogue Earth: on 17 June 2013 the moraine gave way; the lake did not reform because much of the moraine had been washed away — verified."
+  },
+  {
+   "icon": "💧",
+   "label": "Glacial Lakes",
+   "status": "high",
+   "metrics": [
+    [
+     "Lake",
+     "Chorabari Tal (Gandhi Sarovar)"
+    ],
+    [
+     "Coordinates",
+     "30.7475 N, 79.0608 E"
+    ],
+    [
+     "Distance to Kedarnath",
+     "≈2 km upstream"
+    ],
+    [
+     "Lake Area",
+     "≈0.04 km² — approximate"
+    ],
+    [
+     "Dam Type",
+     "Moraine"
+    ]
+   ],
+   "source": "Coordinates and the ≈2 km upstream position from the Chorabari Lake record — verified. Lake area is an approximate pre-event figure."
+  },
+  {
+   "icon": "🌊",
+   "label": "Hydrology",
+   "status": "high",
+   "metrics": [
+    [
+     "River",
+     "Mandakini (Ganga tributary)"
+    ],
+    [
+     "Event 1",
+     "16 Jun, 17:15 IST — Saraswati / Dudh Ganga flood"
+    ],
+    [
+     "Event 2",
+     "17 Jun, 06:45 IST — Chorabari breach"
+    ],
+    [
+     "Sediment Load",
+     "Very high; boulder-laden"
+    ],
+    [
+     "Settlements Hit",
+     "Kedarnath, Rambara, Gaurikund, Sonprayag, Agastyamuni"
+    ]
+   ],
+   "source": "Shri Kedarnath Charitable Trust (Uttarakhand Govt.) chronology of the two events with times — verified."
+  },
+  {
+   "icon": "☁️",
+   "label": "Weather / Climate",
+   "status": "high",
+   "metrics": [
+    [
+     "Rainfall, Chorabari camp (3,800 m)",
+     "325 mm over 16–17 Jun"
+    ],
+    [
+     "24-hour Rainfall",
+     "315 mm at the WIHG camp"
+    ],
+    [
+     "Dokriani camp (2,500 m)",
+     "269 mm over 16–17 Jun"
+    ],
+    [
+     "Driver",
+     "Monsoon meeting a westerly disturbance"
+    ],
+    [
+     "Anomaly",
+     "Extreme for this altitude"
+    ]
+   ],
+   "source": "Mehta et al. via ResearchGate for the camp totals; Dialogue Earth for the 315 mm/24 h WIHG record — verified as published."
+  },
+  {
+   "icon": "⛰️",
+   "label": "Terrain",
+   "status": "high",
+   "metrics": [
+    [
+     "Headwall Slope",
+     "≈45° — approximate"
+    ],
+    [
+     "Valley Form",
+     "Narrow, steep-sided"
+    ],
+    [
+     "Channel Constriction",
+     "Upstream of Gaurikund"
+    ],
+    [
+     "Landslide Susceptibility",
+     "Very high"
+    ]
+   ],
+   "source": "Published analyses attribute much of the Gaurikund destruction to narrowing of the river course slightly upstream — verified narrative; slope value approximate."
+  },
+  {
+   "icon": "🌉",
+   "label": "Infrastructure",
+   "status": "high",
+   "metrics": [
+    [
+     "Pilgrim Route Destroyed",
+     "14 km, Gaurikund → Kedarnath"
+    ],
+    [
+     "Rambara",
+     "Completely washed away"
+    ],
+    [
+     "Bridges & Roads",
+     "≈US$285 million damage (Kala)"
+    ],
+    [
+     "Dam Projects",
+     "≈US$30 million damage"
+    ],
+    [
+     "Tourism Loss",
+     "≈US$195 million"
+    ]
+   ],
+   "source": "Route length from Dialogue Earth/PreventionWeb; damage costs as compiled by ecologist C.P. Kala — verified as reported, converted figures."
+  },
+  {
+   "icon": "🏘️",
+   "label": "Exposure",
+   "status": "high",
+   "metrics": [
+    [
+     "Death Toll",
+     "6,054 (official, later figure)"
+    ],
+    [
+     "Presumed Dead",
+     ">5,700, incl. 934 local residents"
+    ],
+    [
+     "Pilgrims Stranded",
+     "≈300,000 — approximate"
+    ],
+    [
+     "Season",
+     "Peak Char Dham pilgrimage"
+    ],
+    [
+     "People Affected (region)",
+     "Millions across Uttarakhand"
+    ]
+   ],
+   "source": "Government of Uttarakhand figures as reported: >5,700 presumed dead including 934 local residents, toll later placed at 6,054 — verified as reported. The ≈300,000 stranded figure is widely cited but approximate."
+  },
+  {
+   "icon": "🚑",
+   "label": "Response Resources",
+   "status": "anomaly",
+   "metrics": [
+    [
+     "Air Rescue",
+     "IAF/ITBP/NDRF, helipads at Guptkashi & Gauchar"
+    ],
+    [
+     "Road Head",
+     "Sonprayag — road destroyed beyond"
+    ],
+    [
+     "Nearest Hospital",
+     "District Hospital, Rudraprayag"
+    ],
+    [
+     "Warning Issued",
+     "None effective in time"
+    ],
+    [
+     "Access",
+     "Severed for days"
+    ]
+   ],
+   "source": "Reconstructed from published accounts of the response. Specific base and helipad locations are approximate; there was, as reported, effectively no warning and most people were taken by surprise."
+  }
+ ],
+ "ml": {
+  "lake_area_km2": 0.04,
+  "lake_growth_pct_yr": 40,
+  "dam_type": 1,
+  "headwall_slope_deg": 45,
+  "glacier_area_km2": 6.6,
+  "precip_anomaly_pct": 375,
+  "temp_anomaly_c": 1.5,
+  "downstream_exposure": 0.95
+ },
+ "mlNotes": {
+  "lake_area_km2": "A — pre-event estimate",
+  "lake_growth_pct_yr": "A — proxy for the +7 m level rise",
+  "dam_type": "V — moraine",
+  "headwall_slope_deg": "A",
+  "glacier_area_km2": "A",
+  "precip_anomaly_pct": "V — 315–325 mm vs seasonal baseline",
+  "temp_anomaly_c": "A",
+  "downstream_exposure": "A — derived from the pilgrim load"
+ },
+ "why": [
+  "315 mm of rain in 24 hours at 3,800 m — extreme for that altitude (WIHG camp record)",
+  "Chorabari Tal water level rose ≈7 m against an already weakened moraine dam",
+  "Two floods in 14 hours: the 16 June rainfall flood, then the 17 June moraine breach",
+  "The lake sat only ≈2 km upstream of Kedarnath — travel time measured in minutes",
+  "≈300,000 pilgrims were in a narrow valley at peak season with no effective warning"
+ ],
+ "impact": {
+  "hazard": "Extreme Rainfall → Moraine Breach",
+  "severity": "EMERGENCY",
+  "area": "14 km pilgrim route destroyed; Mandakini valley to Rudraprayag",
+  "exposure": "≈300,000 pilgrims in the region (approximate)",
+  "safeZone": "Guptkashi (1,319 m) — relief and helipad hub"
+ },
+ "rescue": {
+  "startLabel": "Rescue Staging — Sonprayag road head",
+  "zoneLabel": "Kedarnath town & temple precinct",
+  "destLabel": "Guptkashi — relief camp & helipad",
+  "priorities": [
+   [
+    "Priority 1",
+    "Kedarnath temple precinct — thousands sheltering"
+   ],
+   [
+    "Priority 2",
+    "Rambara & Jungle Chatti — route completely destroyed"
+   ],
+   [
+    "Priority 3",
+    "Gaurikund & Sonprayag — road head cut off"
+   ]
+  ],
+  "hospital": "District Hospital, Rudraprayag",
+  "hospitalDist": "≈40 km from staging point",
+  "shelter": "Guptkashi Relief Camp",
+  "shelterDist": "≈13 km from staging point",
+  "base": "Sonprayag Staging Point",
+  "roadAcc": "Blocked",
+  "roadAccPill": "pill-red",
+  "blockedCorridor": "Sonprayag–Gaurikund road & the Gaurikund–Kedarnath foot route"
+ },
+ "gis": {
+  "center": [
+   30.66,
+   79.03
+  ],
+  "zoom": 11,
+  "baseLL": [
+   30.625,
+   78.99
+  ],
+  "zoneLL": [
+   30.7352,
+   79.0669
+  ],
+  "destLL": [
+   30.529,
+   79.053
+  ],
+  "hospLL": [
+   30.53,
+   79.052
+  ],
+  "shelLL": [
+   30.63,
+   78.995
+  ],
+  "basePop": "<b>Sonprayag — rescue staging / road head</b><span class=\"pop-tag\">Approximate location · indicative role</span>",
+  "zonePop": "<b>Kedarnath town &amp; temple</b><span class=\"pop-tag\">Upper town destroyed; temple survived</span>",
+  "destPop": "<b>Guptkashi — relief camp &amp; helipad</b><span class=\"pop-tag\">Air-rescue hub, 1,319 m</span>",
+  "hospPop": "<b>Community Health Centre, Guptkashi</b><span class=\"pop-tag\">Nearest functioning facility · approximate</span>",
+  "shelPop": "<b>Sonprayag relief camp</b><span class=\"pop-tag\">Indicative shelter site</span>",
+  "bridges": [
+   {
+    "ll": [
+     30.6494,
+     79.0263
+    ],
+    "pop": "<b>Gaurikund crossing</b><span class=\"pop-tag\">Mandakini crossing · destroyed</span>"
+   },
+   {
+    "ll": [
+     30.69,
+     79.06
+    ],
+    "pop": "<b>Rambara bridge</b><span class=\"pop-tag\">Rambara completely washed away, 16 Jun</span>"
+   }
+  ],
+  "blocked": [
+   {
+    "ll": [
+     30.643,
+     79.018
+    ],
+    "pop": "<b>Blocked Section — Sonprayag–Gaurikund road</b><span class=\"pop-tag\">Carriageway washed out · indicative</span>"
+   }
+  ],
+  "routeA": [
+   [
+    30.625,
+    78.99
+   ],
+   [
+    30.638,
+    79.011
+   ],
+   [
+    30.6494,
+    79.0263
+   ],
+   [
+    30.69,
+    79.06
+   ],
+   [
+    30.715,
+    79.064
+   ],
+   [
+    30.7352,
+    79.0669
+   ],
+   [
+    30.715,
+    79.064
+   ],
+   [
+    30.69,
+    79.06
+   ],
+   [
+    30.6494,
+    79.0263
+   ],
+   [
+    30.625,
+    78.99
+   ],
+   [
+    30.59,
+    78.995
+   ],
+   [
+    30.529,
+    79.053
+   ]
+  ],
+  "routeB": [
+   [
+    30.625,
+    78.99
+   ],
+   [
+    30.648,
+    79.025
+   ],
+   [
+    30.69,
+    79.058
+   ],
+   [
+    30.7352,
+    79.0669
+   ],
+   [
+    30.685,
+    79.09
+   ],
+   [
+    30.64,
+    79.105
+   ],
+   [
+    30.58,
+    79.1
+   ],
+   [
+    30.545,
+    79.09
+   ],
+   [
+    30.529,
+    79.053
+   ]
+  ],
+  "routeC": [
+   [
+    30.625,
+    78.99
+   ],
+   [
+    30.635,
+    79.005
+   ],
+   [
+    30.643,
+    79.018
+   ],
+   [
+    30.69,
+    79.06
+   ],
+   [
+    30.7352,
+    79.0669
+   ]
+  ],
+  "roadNet": [
+   [
+    [
+     30.529,
+     79.053
+    ],
+    [
+     30.57,
+     79.02
+    ],
+    [
+     30.6,
+     78.995
+    ],
+    [
+     30.625,
+     78.99
+    ],
+    [
+     30.6494,
+     79.0263
+    ]
+   ],
+   [
+    [
+     30.529,
+     79.053
+    ],
+    [
+     30.46,
+     79.035
+    ],
+    [
+     30.39,
+     79.02
+    ],
+    [
+     30.33,
+     78.96
+    ],
+    [
+     30.284,
+     78.981
+    ]
+   ],
+   [
+    [
+     30.545,
+     79.09
+    ],
+    [
+     30.58,
+     79.1
+    ],
+    [
+     30.64,
+     79.105
+    ],
+    [
+     30.685,
+     79.09
+    ]
+   ]
+  ],
+  "flood": [
+   [
+    30.748,
+    79.062
+   ],
+   [
+    30.736,
+    79.07
+   ],
+   [
+    30.715,
+    79.067
+   ],
+   [
+    30.69,
+    79.062
+   ],
+   [
+    30.66,
+    79.04
+   ],
+   [
+    30.63,
+    79
+   ],
+   [
+    30.62,
+    78.986
+   ],
+   [
+    30.628,
+    78.984
+   ],
+   [
+    30.642,
+    79.006
+   ],
+   [
+    30.672,
+    79.048
+   ],
+   [
+    30.7,
+    79.064
+   ],
+   [
+    30.73,
+    79.074
+   ],
+   [
+    30.75,
+    79.068
+   ]
+  ],
+  "floodPop": "<b>Mandakini debris-flood corridor</b><span class=\"pop-tag\">Approximate extent, redrawn from published post-event maps</span>",
+  "landslide": [
+   [
+    30.68,
+    79.052
+   ],
+   [
+    30.679,
+    79.068
+   ],
+   [
+    30.652,
+    79.062
+   ],
+   [
+    30.654,
+    79.046
+   ]
+  ],
+  "landslidePop": "<b>Slope failure / bank erosion section</b><span class=\"pop-tag\">Rambara reach · approximate</span>",
+  "routeStats": {
+   "0": {
+    "A": {
+     "dist": "32.1 km",
+     "time": "8 h 30 (mixed foot/road)",
+     "bridges": 2,
+     "risk": "High Risk",
+     "status": "Passable"
+    },
+    "B": {
+     "dist": "38.4 km",
+     "time": "11 h 00"
+    },
+    "C": {
+     "dist": "16.8 km",
+     "blocked": 0,
+     "status": "Passable"
+    }
+   },
+   "1": {
+    "A": {
+     "dist": "32.1 km",
+     "time": "11 h 00",
+     "bridges": 2,
+     "risk": "High Risk",
+     "status": "Partial"
+    },
+    "B": {
+     "dist": "38.4 km",
+     "time": "12 h 00"
+    },
+    "C": {
+     "dist": "16.8 km",
+     "blocked": 1,
+     "status": "Unsafe"
+    }
+   },
+   "2": {
+    "A": {
+     "dist": "32.1 km",
+     "time": "—",
+     "bridges": 2,
+     "risk": "Extreme Risk",
+     "status": "Severed"
+    },
+    "B": {
+     "dist": "38.4 km",
+     "time": "14 h 00"
+    },
+    "C": {
+     "dist": "16.8 km",
+     "blocked": 2,
+     "status": "Impassable"
+    }
+   }
+  },
+  "routeBReason": "Route B leaves the Mandakini gorge and uses the Chaumasi–Kalimath alignment to reach Guptkashi — the alternate approach that was actually used after the main route was destroyed. It avoids the Rambara and Gaurikund crossings. Alignment is indicative and approximate.",
+  "coordSeed": "lat 30.660, lng 79.030"
+ },
+ "team": {
+  "baseLabel": "SONPRAYAG STAGING",
+  "areaLabel": "Zone Density Map — Mandakini / Kedarnath Valley",
+  "base": [
+   30.625,
+   78.99
+  ],
+  "zones": [
+   {
+    "id": "Z-01",
+    "name": "Kedarnath temple precinct",
+    "ll": [
+     30.7352,
+     79.0669
+    ],
+    "base": 52,
+    "risk": "crit",
+    "km": 19.2,
+    "access": "Blocked (1 route)",
+    "shelter": "Guptkashi Relief Camp"
+   },
+   {
+    "id": "Z-02",
+    "name": "Rambara",
+    "ll": [
+     30.69,
+     79.06
+    ],
+    "base": 28,
+    "risk": "crit",
+    "km": 12.6,
+    "access": "Blocked (1 route)",
+    "shelter": "Guptkashi Relief Camp"
+   },
+   {
+    "id": "Z-03",
+    "name": "Jungle Chatti",
+    "ll": [
+     30.67,
+     79.045
+    ],
+    "base": 16,
+    "risk": "crit",
+    "km": 9.4,
+    "access": "Blocked (1 route)",
+    "shelter": "Sonprayag Relief Camp"
+   },
+   {
+    "id": "Z-04",
+    "name": "Gaurikund",
+    "ll": [
+     30.6494,
+     79.0263
+    ],
+    "base": 38,
+    "risk": "crit",
+    "km": 5.8,
+    "access": "Partial",
+    "shelter": "Sonprayag Relief Camp"
+   },
+   {
+    "id": "Z-05",
+    "name": "Sonprayag road head",
+    "ll": [
+     30.625,
+     78.99
+    ],
+    "base": 24,
+    "risk": "high",
+    "km": 0.5,
+    "access": "Open",
+    "shelter": "Sonprayag Relief Camp"
+   },
+   {
+    "id": "Z-06",
+    "name": "Guptkashi helipad",
+    "ll": [
+     30.529,
+     79.053
+    ],
+    "base": 11,
+    "risk": "mod",
+    "km": 13.1,
+    "access": "Open",
+    "shelter": "Guptkashi Relief Camp"
+   }
+  ]
+ },
+ "alert": {
+  "eventType": "GLOF / Flash Flood",
+  "eventTypeReal": "Extreme rainfall + moraine-dam breach",
+  "location": "Chorabari Tal → Mandakini valley, Rudraprayag District",
+  "action": "Leave the Mandakini channel and the Gaurikund–Kedarnath route; climb to high ground immediately",
+  "actionShort": "Leave the river route — climb to high ground now",
+  "head": "🚨 EMERGENCY ALERT — HISTORICAL REPLAY",
+  "zone": "Kedarnath valley, Uttarakhand",
+  "time": "17 Jun 2013, 06:45 IST",
+  "source": "Reconstructed from WIHG / NIDM / Uttarakhand Govt. public reporting",
+  "relayEvent": "Moraine-dam breach flood",
+  "relayZone": "Mandakini valley",
+  "relayTime": "06:45 IST",
+  "relayAction": "Climb away from the river route",
+  "relayExpiry": "20 min"
+ },
+ "report": {
+  "hazardType": "Extreme rainfall → moraine-dam breach → debris flood",
+  "detectionTime": "16 Jun 2013 17:15 IST and 17 Jun 2013 06:45 IST (event onsets — not predictions)",
+  "obsSource": "WIHG Chorabari camp records · Uttarakhand Govt. chronology · ISRO-NRSC / NIDM post-event studies",
+  "area": "14 km pilgrim route destroyed; Mandakini valley to Rudraprayag",
+  "evidence": "Rain-gauge records, post-event satellite imagery, field surveys",
+  "action": "Evacuate the Mandakini channel toward Guptkashi",
+  "route": "Route B — Chaumasi / Kalimath alignment (indicative)"
+ },
+ "notifications": [
+  [
+   "🚨",
+   "Extreme rainfall",
+   "315 mm in 24 h at the Chorabari camp (3,800 m)",
+   "risk"
+  ],
+  [
+   "⚠️",
+   "Moraine breach",
+   "Chorabari Tal dam gave way, 17 Jun 06:45 IST",
+   "map"
+  ],
+  [
+   "ℹ️",
+   "Lake lost",
+   "Chorabari Tal never reformed — moraine washed away",
+   "monitoring"
+  ],
+  [
+   "✅",
+   "Access note",
+   "Gaurikund–Kedarnath route destroyed; alternate indicative",
+   "rescue"
+  ]
+ ],
+ "demo": [
+  "Rain-gauge & satellite records loaded (16–17 Jun 2013)",
+  "Chorabari Tal moraine breach identified",
+  "Risk classified EMERGENCY from documented features",
+  "Mandakini flood corridor drawn from published maps",
+  "Alternate route away from the destroyed pilgrim track",
+  "Rescue team view — Kedarnath, Rambara, Gaurikund",
+  "Alert text — what a warning should have said",
+  "Alert relayed to a second demo device",
+  "Dashboard updates with officially reported figures"
+ ],
+ "sources": [
+  {
+   "n": "Chorabari Lake — coordinates, breach, post-event state",
+   "u": "https://en.wikipedia.org/wiki/Chorabari_Lake",
+   "d": "2026-09-20"
+  },
+  {
+   "n": "Dialogue Earth — Kedarnath: a decade after the floods",
+   "u": "https://dialogue.earth/en/climate/a-decade-after-the-floods-is-kedarnath-safer/",
+   "d": "2026-09-20"
+  },
+  {
+   "n": "Shri Kedarnath Charitable Trust (Uttarakhand Govt.) — Natural Calamities 2013 chronology",
+   "u": "https://shrikedarnathcharitabletrust.uk.gov.in/Naturalcalamities2013",
+   "d": "2026-09-20"
+  },
+  {
+   "n": "Dialogue Earth — Death of Chorabari lake (WIHG 315 mm / +7 m)",
+   "u": "https://dialogue.earth/en/climate/death-of-chorabari-lake/",
+   "d": "2026-09-20"
+  },
+  {
+   "n": "PreventionWeb — India: a decade after the floods, is Kedarnath safer?",
+   "u": "https://www.preventionweb.net/news/decade-after-floods-kedarnath-safer",
+   "d": "2026-09-20"
+  },
+  {
+   "n": "Wikipedia — 2013 North India floods (index to primary sources)",
+   "u": "https://en.wikipedia.org/wiki/2013_North_India_floods",
+   "d": "2026-09-20"
+  },
+  {
+   "n": "Mehta et al., camp rainfall totals (via ResearchGate figure record)",
+   "u": "https://www.researchgate.net/figure/ew-of-the-Kedarnath-township-ravaged-by-the-flood-of-June-2013-with-camera-looking-south_fig2_259934156",
+   "d": "2026-09-20"
+  }
+ ],
+ "quality": [
+  [
+   "Two-event chronology with times (16 Jun 17:15, 17 Jun 06:45)",
+   "V",
+   "Uttarakhand Govt. / Shri Kedarnath Charitable Trust"
+  ],
+  [
+   "Chorabari Lake 30.7475 N, 79.0608 E; ≈2 km upstream; did not reform",
+   "V",
+   "Chorabari Lake record"
+  ],
+  [
+   "315 mm in 24 h (WIHG camp); 325 mm over 16–17 Jun at 3,800 m; 269 mm at Dokriani",
+   "V",
+   "Dialogue Earth / Mehta et al."
+  ],
+  [
+   "Lake level rise ≈7 m before breach",
+   "V",
+   "WIHG (D.P. Dobhal) via Dialogue Earth"
+  ],
+  [
+   "Death toll 6,054; >5,700 presumed dead incl. 934 residents",
+   "V",
+   "Government of Uttarakhand, as reported"
+  ],
+  [
+   "14 km pilgrim route destroyed; Rambara washed away",
+   "V",
+   "Dialogue Earth / Uttarakhand Govt."
+  ],
+  [
+   "Damage US$285 M roads/bridges, $30 M dams, $195 M tourism",
+   "V",
+   "C.P. Kala, as reported"
+  ],
+  [
+   "≈300,000 pilgrims stranded",
+   "A",
+   "widely cited, not from a single primary count"
+  ],
+  [
+   "Kedarnath, Rambara, Gaurikund, Sonprayag, Guptkashi, Rudraprayag coordinates",
+   "A",
+   "gazetteer-level"
+  ],
+  [
+   "Glacier area 6.6 km², lake area 0.04 km², slope 45°, temp anomaly +1.5 °C",
+   "A",
+   "order-of-magnitude estimates"
+  ],
+  [
+   "Flood & landslide polygons",
+   "A",
+   "redrawn by eye from published post-event maps"
+  ],
+  [
+   "Routes A / B / C alignments, distances, times",
+   "A",
+   "indicative; Route B follows the Chaumasi–Kalimath alternate"
+  ],
+  [
+   "Per-zone people counts in the Rescue Team view",
+   "S",
+   "SIMULATED — no crowd sensing existed in 2013"
+  ],
+  [
+   "River-level slider states",
+   "S",
+   "UI demonstration only"
+  ]
+ ]
+}

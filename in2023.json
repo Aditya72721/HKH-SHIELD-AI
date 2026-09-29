@@ -1,0 +1,992 @@
+{
+ "id": "in2023",
+ "short": "India · Sikkim 2023",
+ "title": "South Lhonak GLOF — Teesta III Dam Failure",
+ "country": "India",
+ "hazard": "Moraine collapse → GLOF → dam failure → multihazard cascade",
+ "hazardShort": "GLOF / Dam Failure Cascade",
+ "eventTime": "3 Oct 2023 (late) → 4 Oct 2023, ≈00:30 IST",
+ "eventDate": "3–4 Oct 2023",
+ "tz": "IST (UTC+5:30)",
+ "incidentId": "HKH-IN-2023-001",
+ "region": "South Lhonak Lake → Teesta River, Mangan & Pakyong Districts, Sikkim",
+ "detectedChange": "Frozen lateral moraine collapsed into South Lhonak Lake; terminal moraine breached",
+ "changePct": "≈50 million m³ of lake water drained",
+ "summary": "On 3 October 2023 about 14.7 million m³ of frozen lateral moraine collapsed into South Lhonak Lake at 5,200 m. The impact generated an approximately 20 m tsunami-like wave, breached the terminal moraine and drained around 50 million m³ of water. The flood eroded roughly 270 million m³ of sediment on its way down and reached the 1,200 MW Teesta III dam at Chungthang at about 00:30 IST on 4 October, before the gates could be opened; the 60 m dam was destroyed in minutes, adding its stored water to the flood. The surge travelled 385 km down the Teesta into Bangladesh.",
+ "kpi": {
+  "hazardStatus": "EMERGENCY",
+  "zoneFoot": "Mangan & Pakyong Districts, Sikkim",
+  "areaKm2": {
+   "v": "385 km flow path",
+   "s": "V",
+   "src": 1
+  },
+  "alerts": {
+   "v": "04",
+   "s": "V",
+   "src": 3,
+   "foot": "Relief camps in four affected districts"
+  }
+ },
+ "mparams": [
+  {
+   "icon": "🏔️",
+   "label": "Glacier Geometry",
+   "status": "high",
+   "metrics": [
+    [
+     "Source Glacier",
+     "South Lhonak Glacier"
+    ],
+    [
+     "Retreat",
+     "≈2 km between 1962 and 2008"
+    ],
+    [
+     "Further Retreat",
+     "≈400 m, 2008–2019"
+    ],
+    [
+     "Glacier Area",
+     "≈6.9 km² — approximate"
+    ]
+   ],
+   "source": "Raj et al. via the Geosystems and Geoenvironment review: the glacier retreated ≈2 km over 46 years and a further ≈400 m from 2008 to 2019 — verified as published. Area figure approximate."
+  },
+  {
+   "icon": "❄️",
+   "label": "Ice / Snow",
+   "status": "high",
+   "metrics": [
+    [
+     "Moraine Collapse Volume",
+     "14.7 million m³ (frozen lateral moraine)"
+    ],
+    [
+     "Alternative Estimate",
+     "≈38.31 million m³ debris (Mohanty et al.)"
+    ],
+    [
+     "Glacier Calving",
+     "≈7 million m³ ice mass lost"
+    ],
+    [
+     "Permafrost Role",
+     "Degradation implicated"
+    ]
+   ],
+   "source": "Science (2025) multihazard-cascade paper for 14.7 million m³; Scientific Reports (Mohanty et al.) for the ≈38.31 million m³ debris and ≈7 million m³ calving estimates — both verified as published; the estimates differ between studies."
+  },
+  {
+   "icon": "🪨",
+   "label": "Crack & Instability",
+   "status": "high",
+   "metrics": [
+    [
+     "Impact Wave",
+     "≈20 m, tsunami-like"
+    ],
+    [
+     "Terminal Moraine",
+     "Breached"
+    ],
+    [
+     "Downstream Erosion",
+     "≈270 million m³ of sediment"
+    ],
+    [
+     "Peak Height 1 km Downstream",
+     "≈11 m"
+    ]
+   ],
+   "source": "Science (2025) for the ≈20 m impact wave and ≈270 million m³ erosion; Sattar et al. (2025) modelling via Petley's Landslide Blog for the ≈11 m peak 1 km downstream — verified as published."
+  },
+  {
+   "icon": "💧",
+   "label": "Glacial Lakes",
+   "status": "high",
+   "metrics": [
+    [
+     "Lake",
+     "South Lhonak Lake"
+    ],
+    [
+     "Elevation",
+     "5,200 m a.s.l."
+    ],
+    [
+     "Pre-event Area",
+     "≈1.68 km² — approximate"
+    ],
+    [
+     "Water Drained",
+     "≈50 million m³"
+    ],
+    [
+     "Dam Type",
+     "Moraine"
+    ],
+    [
+     "Residual Water",
+     "Lake not fully emptied"
+    ]
+   ],
+   "source": "Science (2025) for the ≈50 million m³ drained and the 5,200 m elevation — verified. Pre-event area is an approximate inventory-scale figure; imagery shows water remaining after the GLOF."
+  },
+  {
+   "icon": "🌊",
+   "label": "Hydrology",
+   "status": "high",
+   "metrics": [
+    [
+     "River",
+     "Teesta (Brahmaputra tributary)"
+    ],
+    [
+     "Distance to Teesta III Dam",
+     "≈60–68 km (studies differ)"
+    ],
+    [
+     "Arrival at Chungthang",
+     "≈00:30 IST, 4 Oct 2023"
+    ],
+    [
+     "Downstream Rise",
+     "15–20 ft (≈4.6–6.1 m)"
+    ],
+    [
+     "Total Flow Path",
+     "385 km to Bangladesh"
+    ]
+   ],
+   "source": "Petley's Landslide Blog / Eos for the 00:30 arrival; Science (2025) for the 385 km path; Scientific Reports and Wikipedia for the 15–20 ft downstream rise — verified as published. Distance to the dam is quoted as ≈60, 65 or 68 km in different studies."
+  },
+  {
+   "icon": "☁️",
+   "label": "Weather / Climate",
+   "status": "anomaly",
+   "metrics": [
+    [
+     "Antecedent Rainfall",
+     ">200 mm reported in preceding hours"
+    ],
+    [
+     "Role",
+     "Destabilising, not sole trigger"
+    ],
+    [
+     "Cloudburst Hypothesis",
+     "Proposed in some studies"
+    ],
+    [
+     "Temperature Anomaly",
+     "+2.5 °C — approximate"
+    ]
+   ],
+   "source": "Intense antecedent rainfall exceeding 200 mm is reported as having destabilised the moraine slope; a cloudburst contribution is proposed in the Geosystems and Geoenvironment study. Studies disagree on how much rainfall mattered. Temperature anomaly is approximate."
+  },
+  {
+   "icon": "⛰️",
+   "label": "Terrain",
+   "status": "high",
+   "metrics": [
+    [
+     "Headwall Slope",
+     "≈45° — approximate"
+    ],
+    [
+     "Valley Form",
+     "Narrow Teesta gorge"
+    ],
+    [
+     "Erodible Channel",
+     "Very high sediment availability"
+    ],
+    [
+     "Landslide Susceptibility",
+     "Very high"
+    ]
+   ],
+   "source": "Science (2025) attributes severity partly to the massive amount of eroded material and the narrow valley with recent construction — verified narrative; slope value approximate."
+  },
+  {
+   "icon": "🌉",
+   "label": "Infrastructure",
+   "status": "high",
+   "metrics": [
+    [
+     "Teesta III Dam",
+     "1,200 MW, 60 m high — destroyed"
+    ],
+    [
+     "Stored Water Released",
+     "≈5.08 million m³"
+    ],
+    [
+     "Bridges Destroyed",
+     "13 (Mohanty et al.) / 16 (Govt. of Sikkim)"
+    ],
+    [
+     "Residences Destroyed",
+     "≈1,200"
+    ],
+    [
+     "Road",
+     "NH-10 severely damaged"
+    ]
+   ],
+   "source": "Eos/Petley for the 60 m dam height; Government of Sikkim (8 Nov 2023) for 16 bridges and the ≈5.08 million m³ release; Scientific Reports for 13 bridges and ≈1,200 residences — verified as reported; counts differ between sources."
+  },
+  {
+   "icon": "🏘️",
+   "label": "Exposure",
+   "status": "high",
+   "metrics": [
+    [
+     "Deaths",
+     "55 (Science) / 42–46 (Govt. of Sikkim, earlier)"
+    ],
+    [
+     "Missing",
+     "74–77"
+    ],
+    [
+     "People Affected",
+     "88,400"
+    ],
+    [
+     "Evacuated",
+     "5,665"
+    ],
+    [
+     "Rescued",
+     "2,563"
+    ],
+    [
+     "Army Personnel",
+     "Significant losses at Bardang"
+    ]
+   ],
+   "source": "Science (2025) reports 55 deaths and 74 missing in Sikkim; the Government of Sikkim reported 42 dead, >77 missing, 88,400 affected, 5,665 evacuated and 2,563 rescued as of 8 Nov 2023 — both verified as reported on their respective dates."
+  },
+  {
+   "icon": "🚑",
+   "label": "Response Resources",
+   "status": "anomaly",
+   "metrics": [
+    [
+     "Relief Camps",
+     "4 districts; 4 still open on 8 Nov 2023"
+    ],
+    [
+     "Responders",
+     "Army, ITBP, NDRF, Sikkim SDMA"
+    ],
+    [
+     "Nearest Hospitals",
+     "District Hospital Mangan; STNM Gangtok"
+    ],
+    [
+     "Access",
+     "NH-10 severed; bridges lost"
+    ],
+    [
+     "Improvised Crossing",
+     "Bamboo bridge built at Chungthang"
+    ]
+   ],
+   "source": "Government of Sikkim relief figures (8 Nov 2023) and contemporaneous reporting (Sikkim Express via Penn State IEE) — verified as reported."
+  }
+ ],
+ "ml": {
+  "lake_area_km2": 1.68,
+  "lake_growth_pct_yr": 9,
+  "dam_type": 1,
+  "headwall_slope_deg": 45,
+  "glacier_area_km2": 6.9,
+  "precip_anomaly_pct": 210,
+  "temp_anomaly_c": 2.5,
+  "downstream_exposure": 0.8
+ },
+ "mlNotes": {
+  "lake_area_km2": "A — pre-event inventory-scale estimate",
+  "lake_growth_pct_yr": "A — from the documented rapid expansion",
+  "dam_type": "V — moraine",
+  "headwall_slope_deg": "A",
+  "glacier_area_km2": "A",
+  "precip_anomaly_pct": "A — from the >200 mm antecedent rainfall reports",
+  "temp_anomaly_c": "A",
+  "downstream_exposure": "A — derived from affected-population counts"
+ },
+ "why": [
+  "South Lhonak was already the largest and fastest-growing lake in the basin — flagged high-hazard years before",
+  "14.7 million m³ of frozen lateral moraine collapsed into the lake and raised an ≈20 m impulse wave",
+  "≈50 million m³ drained through the breached terminal moraine",
+  "The flood eroded ≈270 million m³ of sediment, multiplying its destructive volume",
+  "Teesta III sat ≈60–68 km downstream in a narrow gorge; the surge arrived at ≈00:30 before gates could open"
+ ],
+ "impact": {
+  "hazard": "GLOF → Dam Failure Cascade",
+  "severity": "EMERGENCY",
+  "area": "385 km flow path, Sikkim to Bangladesh",
+  "exposure": "88,400 people affected (Govt. of Sikkim)",
+  "safeZone": "Gangtok — state relief and medical hub"
+ },
+ "rescue": {
+  "startLabel": "Rescue Base — Mangan (District HQ)",
+  "zoneLabel": "Chungthang — Teesta III dam site",
+  "destLabel": "Gangtok — state relief & medical hub",
+  "priorities": [
+   [
+    "Priority 1",
+    "Chungthang bazaar & Teesta III dam colony"
+   ],
+   [
+    "Priority 2",
+    "Lachen / Lachung — tourists and residents cut off"
+   ],
+   [
+    "Priority 3",
+    "Dikchu, Singtam & Rangpo — NH-10 corridor"
+   ]
+  ],
+  "hospital": "District Hospital, Mangan",
+  "hospitalDist": "≈0.5 km from rescue base",
+  "shelter": "Mangan Relief Camp",
+  "shelterDist": "≈0.5 km from rescue base",
+  "base": "Mangan District Base",
+  "roadAcc": "Blocked",
+  "roadAccPill": "pill-red",
+  "blockedCorridor": "NH-10 Teesta corridor & the Sanklang Teesta crossing"
+ },
+ "gis": {
+  "center": [
+   27.45,
+   88.57
+  ],
+  "zoom": 10,
+  "baseLL": [
+   27.51,
+   88.53
+  ],
+  "zoneLL": [
+   27.6,
+   88.64
+  ],
+  "destLL": [
+   27.333,
+   88.614
+  ],
+  "hospLL": [
+   27.514,
+   88.532
+  ],
+  "shelLL": [
+   27.508,
+   88.526
+  ],
+  "basePop": "<b>Mangan — District HQ rescue base</b><span class=\"pop-tag\">Army / ITBP / NDRF staging · approximate</span>",
+  "zonePop": "<b>Chungthang — Teesta III dam site</b><span class=\"pop-tag\">1,200 MW dam destroyed, ≈00:30 IST 4 Oct 2023</span>",
+  "destPop": "<b>Gangtok — state relief &amp; medical hub</b><span class=\"pop-tag\">STNM Hospital · approximate location</span>",
+  "hospPop": "<b>District Hospital, Mangan</b><span class=\"pop-tag\">Nearest district hospital · approximate</span>",
+  "shelPop": "<b>Mangan Relief Camp</b><span class=\"pop-tag\">Indicative shelter site</span>",
+  "bridges": [
+   {
+    "ll": [
+     27.545,
+     88.57
+    ],
+    "pop": "<b>Sanklang Teesta crossing</b><span class=\"pop-tag\">Teesta bridge lost · 13–16 bridges destroyed statewide</span>"
+   },
+   {
+    "ll": [
+     27.565,
+     88.605
+    ],
+    "pop": "<b>Toong crossing</b><span class=\"pop-tag\">High-risk crossing on the valley road · indicative</span>"
+   },
+   {
+    "ll": [
+     27.42,
+     88.52
+    ],
+    "pop": "<b>Dikchu bridge</b><span class=\"pop-tag\">NH-10 corridor crossing · indicative</span>"
+   }
+  ],
+  "blocked": [
+   {
+    "ll": [
+     27.545,
+     88.57
+    ],
+    "pop": "<b>Blocked Section — Sanklang</b><span class=\"pop-tag\">Crossing lost; route severed · indicative</span>"
+   }
+  ],
+  "routeA": [
+   [
+    27.51,
+    88.53
+   ],
+   [
+    27.54,
+    88.56
+   ],
+   [
+    27.565,
+    88.605
+   ],
+   [
+    27.585,
+    88.625
+   ],
+   [
+    27.6,
+    88.64
+   ],
+   [
+    27.57,
+    88.61
+   ],
+   [
+    27.51,
+    88.53
+   ],
+   [
+    27.42,
+    88.52
+   ],
+   [
+    27.37,
+    88.56
+   ],
+   [
+    27.333,
+    88.614
+   ]
+  ],
+  "routeB": [
+   [
+    27.51,
+    88.53
+   ],
+   [
+    27.53,
+    88.545
+   ],
+   [
+    27.565,
+    88.6
+   ],
+   [
+    27.59,
+    88.63
+   ],
+   [
+    27.6,
+    88.64
+   ],
+   [
+    27.55,
+    88.57
+   ],
+   [
+    27.47,
+    88.575
+   ],
+   [
+    27.42,
+    88.575
+   ],
+   [
+    27.38,
+    88.595
+   ],
+   [
+    27.333,
+    88.614
+   ]
+  ],
+  "routeC": [
+   [
+    27.51,
+    88.53
+   ],
+   [
+    27.525,
+    88.542
+   ],
+   [
+    27.545,
+    88.57
+   ],
+   [
+    27.585,
+    88.625
+   ],
+   [
+    27.6,
+    88.64
+   ]
+  ],
+  "roadNet": [
+   [
+    [
+     27.6,
+     88.64
+    ],
+    [
+     27.565,
+     88.605
+    ],
+    [
+     27.51,
+     88.53
+    ],
+    [
+     27.42,
+     88.52
+    ],
+    [
+     27.235,
+     88.5
+    ],
+    [
+     27.177,
+     88.53
+    ]
+   ],
+   [
+    [
+     27.51,
+     88.53
+    ],
+    [
+     27.47,
+     88.575
+    ],
+    [
+     27.42,
+     88.575
+    ],
+    [
+     27.38,
+     88.595
+    ],
+    [
+     27.333,
+     88.614
+    ]
+   ],
+   [
+    [
+     27.6,
+     88.64
+    ],
+    [
+     27.65,
+     88.59
+    ],
+    [
+     27.7167,
+     88.55
+    ]
+   ]
+  ],
+  "flood": [
+   [
+    27.608,
+    88.646
+   ],
+   [
+    27.59,
+    88.63
+   ],
+   [
+    27.56,
+    88.6
+   ],
+   [
+    27.515,
+    88.533
+   ],
+   [
+    27.42,
+    88.518
+   ],
+   [
+    27.235,
+    88.498
+   ],
+   [
+    27.177,
+    88.528
+   ],
+   [
+    27.17,
+    88.538
+   ],
+   [
+    27.238,
+    88.509
+   ],
+   [
+    27.423,
+    88.53
+   ],
+   [
+    27.52,
+    88.542
+   ],
+   [
+    27.568,
+    88.612
+   ],
+   [
+    27.602,
+    88.653
+   ]
+  ],
+  "floodPop": "<b>Teesta GLOF corridor</b><span class=\"pop-tag\">Approximate extent, redrawn from published NRSC/ISRO and study maps. Downstream West Bengal impact is text-only here.</span>",
+  "landslide": [
+   [
+    27.56,
+    88.59
+   ],
+   [
+    27.558,
+    88.618
+   ],
+   [
+    27.52,
+    88.61
+   ],
+   [
+    27.523,
+    88.582
+   ]
+  ],
+  "landslidePop": "<b>Bank collapse / slope-failure reach</b><span class=\"pop-tag\">Chungthang–Mangan section · approximate</span>",
+  "routeStats": {
+   "0": {
+    "A": {
+     "dist": "46.8 km",
+     "time": "2 h 10",
+     "bridges": 2,
+     "risk": "High Risk",
+     "status": "Passable"
+    },
+    "B": {
+     "dist": "54.2 km",
+     "time": "2 h 35"
+    },
+    "C": {
+     "dist": "13.2 km",
+     "blocked": 0,
+     "status": "Passable"
+    }
+   },
+   "1": {
+    "A": {
+     "dist": "46.8 km",
+     "time": "3 h 05",
+     "bridges": 3,
+     "risk": "High Risk",
+     "status": "Partial"
+    },
+    "B": {
+     "dist": "54.2 km",
+     "time": "2 h 50"
+    },
+    "C": {
+     "dist": "13.2 km",
+     "blocked": 1,
+     "status": "Unsafe"
+    }
+   },
+   "2": {
+    "A": {
+     "dist": "46.8 km",
+     "time": "—",
+     "bridges": 3,
+     "risk": "Extreme Risk",
+     "status": "Severed"
+    },
+    "B": {
+     "dist": "54.2 km",
+     "time": "3 h 20"
+    },
+    "C": {
+     "dist": "13.2 km",
+     "blocked": 2,
+     "status": "Impassable"
+    }
+   }
+  },
+  "routeBReason": "Route B leaves the Teesta gorge at Mangan and uses the Phodong–Kabi ridge alignment (NH-310A) down to Gangtok, avoiding the lost Sanklang and Dikchu crossings and the NH-10 riverside sections. Alignment is indicative — drawn on the mapped road network, not from a documented evacuation order.",
+  "coordSeed": "lat 27.450, lng 88.570"
+ },
+ "team": {
+  "baseLabel": "MANGAN BASE",
+  "areaLabel": "Zone Density Map — Teesta Valley, Sikkim",
+  "base": [
+   27.51,
+   88.53
+  ],
+  "zones": [
+   {
+    "id": "Z-01",
+    "name": "Chungthang Bazaar",
+    "ll": [
+     27.6,
+     88.64
+    ],
+    "base": 36,
+    "risk": "crit",
+    "km": 12.8,
+    "access": "Blocked (1 route)",
+    "shelter": "Mangan Relief Camp"
+   },
+   {
+    "id": "Z-02",
+    "name": "Teesta III dam colony",
+    "ll": [
+     27.593,
+     88.644
+    ],
+    "base": 22,
+    "risk": "crit",
+    "km": 13.4,
+    "access": "Blocked (1 route)",
+    "shelter": "Mangan Relief Camp"
+   },
+   {
+    "id": "Z-03",
+    "name": "Lachen",
+    "ll": [
+     27.7167,
+     88.55
+    ],
+    "base": 19,
+    "risk": "crit",
+    "km": 34,
+    "access": "Blocked (1 route)",
+    "shelter": "Mangan Relief Camp"
+   },
+   {
+    "id": "Z-04",
+    "name": "Mangan (District HQ)",
+    "ll": [
+     27.51,
+     88.53
+    ],
+    "base": 31,
+    "risk": "high",
+    "km": 0.6,
+    "access": "Open",
+    "shelter": "Mangan Relief Camp"
+   },
+   {
+    "id": "Z-05",
+    "name": "Dikchu",
+    "ll": [
+     27.42,
+     88.52
+    ],
+    "base": 14,
+    "risk": "high",
+    "km": 11.2,
+    "access": "Partial",
+    "shelter": "Gangtok Relief Hub"
+   },
+   {
+    "id": "Z-06",
+    "name": "Singtam",
+    "ll": [
+     27.235,
+     88.5
+    ],
+    "base": 27,
+    "risk": "crit",
+    "km": 33.5,
+    "access": "Partial",
+    "shelter": "Gangtok Relief Hub"
+   }
+  ]
+ },
+ "alert": {
+  "eventType": "GLOF / Flash Flood",
+  "eventTypeReal": "GLOF → dam failure cascade",
+  "location": "South Lhonak Lake → Teesta River, Sikkim",
+  "action": "Move off the Teesta banks and NH-10 riverside sections to high ground immediately",
+  "actionShort": "Leave the Teesta banks — move to high ground now",
+  "head": "🚨 EMERGENCY ALERT — HISTORICAL REPLAY",
+  "zone": "Teesta valley, Sikkim",
+  "time": "4 Oct 2023, ≈00:30 IST",
+  "source": "Reconstructed from Science (2025) / Sikkim SDMA / NRSC public reporting",
+  "relayEvent": "GLOF + dam failure",
+  "relayZone": "Teesta valley, Sikkim",
+  "relayTime": "≈00:30 IST",
+  "relayAction": "Leave the river banks, move uphill",
+  "relayExpiry": "25 min"
+ },
+ "report": {
+  "hazardType": "GLOF → dam failure → multihazard cascade",
+  "detectionTime": "3 Oct 2023 (moraine collapse) → 4 Oct 2023 ≈00:30 IST (dam failure) — event onsets, not predictions",
+  "obsSource": "Science (2025) cascade reconstruction · Scientific Reports (Mohanty et al.) · NRSC/ISRO imagery · Govt. of Sikkim",
+  "area": "385 km flow path from the lake to Bangladesh",
+  "evidence": "Pre/post satellite imagery (SPOT, Pléiades, NRSC), DEM differencing, hydraulic modelling",
+  "action": "Evacuate the Teesta corridor toward Gangtok",
+  "route": "Route B — Phodong / Kabi ridge alignment (indicative)"
+ },
+ "notifications": [
+  [
+   "🚨",
+   "Moraine collapse",
+   "14.7 M m³ fell into South Lhonak Lake",
+   "risk"
+  ],
+  [
+   "⚠️",
+   "GLOF",
+   "≈50 M m³ drained; ≈20 m impulse wave",
+   "map"
+  ],
+  [
+   "ℹ️",
+   "Dam failure",
+   "Teesta III destroyed at ≈00:30 IST, 4 Oct 2023",
+   "monitoring"
+  ],
+  [
+   "✅",
+   "Access note",
+   "NH-10 severed; ridge route indicative",
+   "rescue"
+  ]
+ ],
+ "demo": [
+  "Satellite & lake-inventory records loaded (Oct 2023)",
+  "Moraine collapse into South Lhonak Lake identified",
+  "Risk classified EMERGENCY from documented features",
+  "Teesta GLOF corridor drawn from published maps",
+  "Ridge route away from the NH-10 riverside sections",
+  "Rescue team view — Chungthang, Lachen, Singtam",
+  "Alert text — what a warning should have said",
+  "Alert relayed to a second demo device",
+  "Dashboard updates with officially reported figures"
+ ],
+ "sources": [
+  {
+   "n": "Science (2025) — The Sikkim flood of October 2023: drivers, causes, impacts",
+   "u": "https://www.science.org/doi/10.1126/science.ads2659",
+   "d": "2026-09-20"
+  },
+  {
+   "n": "Scientific Reports (Mohanty et al.) — sequence of events leading to the GLOF",
+   "u": "https://www.nature.com/articles/s41598-026-35895-7",
+   "d": "2026-09-20"
+  },
+  {
+   "n": "Petley, Landslide Blog / Eos — the 3–4 October 2023 Sikkim GLOF",
+   "u": "https://eos.org/thelandslideblog/sikkim-glof-october-2023",
+   "d": "2026-09-20"
+  },
+  {
+   "n": "Penn State IEE — GLOFs: loss of life and infrastructure (Govt. of Sikkim figures)",
+   "u": "https://iee.psu.edu/news/blog/glacier-lake-outburst-floods-loss-life-and-infrastructure",
+   "d": "2026-09-20"
+  },
+  {
+   "n": "Geosystems and Geoenvironment — multiple drivers of the South Lhonak GLOF",
+   "u": "https://www.sciencedirect.com/science/article/pii/S2772883825000251",
+   "d": "2026-09-20"
+  },
+  {
+   "n": "Penn State — Govt. of Sikkim relief figures as of 8 Nov 2023 (PDF)",
+   "u": "https://ecosystems.psu.edu/research/labs/environmental-policy-goddard-chair-group/glacier-lake-outburst-floods-sikkim-wakeup-call-environmental-policy-goddard-chair-group-blog-oct-2023.pdf",
+   "d": "2026-09-20"
+  },
+  {
+   "n": "Wikipedia — 2023 Sikkim flash floods (index to primary sources)",
+   "u": "https://en.wikipedia.org/wiki/2023_Sikkim_flash_floods",
+   "d": "2026-09-20"
+  }
+ ],
+ "quality": [
+  [
+   "14.7 M m³ moraine collapse; ≈20 m impulse wave; ≈50 M m³ drained; ≈270 M m³ eroded",
+   "V",
+   "Science (2025)"
+  ],
+  [
+   "Dam struck ≈00:30 IST 4 Oct 2023; 60 m dam destroyed; ≈11 m peak 1 km downstream",
+   "V",
+   "Petley / Eos; Sattar et al. (2025)"
+  ],
+  [
+   "≈38.31 M m³ debris and ≈7 M m³ calving (alternative estimates)",
+   "V",
+   "Mohanty et al., Scientific Reports — differs from Science (2025)"
+  ],
+  [
+   "385 km flow path to Bangladesh; 55 deaths, 74 missing",
+   "V",
+   "Science (2025)"
+  ],
+  [
+   "42–46 dead, >77 missing, 88,400 affected, 5,665 evacuated, 2,563 rescued, 16 bridges, 5.08 M m³ released",
+   "V",
+   "Government of Sikkim as of 8 Nov 2023 — differs from the Science figures"
+  ],
+  [
+   "13 bridges, ≈1,200 residences, >60,000 affected",
+   "V",
+   "Mohanty et al. — differs from Govt. of Sikkim counts"
+  ],
+  [
+   "Glacier retreat ≈2 km (1962–2008) and ≈400 m (2008–2019)",
+   "V",
+   "Raj et al. via Geosystems and Geoenvironment"
+  ],
+  [
+   "South Lhonak Lake at 5,200 m",
+   "V",
+   "Science (2025)"
+  ],
+  [
+   "Lake pre-event area 1.68 km², glacier area 6.9 km², slope 45°",
+   "A",
+   "inventory-scale estimates"
+  ],
+  [
+   ">200 mm antecedent rainfall; temperature anomaly +2.5 °C",
+   "A",
+   "reported but contested as a driver"
+  ],
+  [
+   "Lachen, Chungthang, Mangan, Dikchu, Singtam, Gangtok, hospital coordinates",
+   "A",
+   "gazetteer-level"
+  ],
+  [
+   "Flood & landslide polygons",
+   "A",
+   "redrawn by eye from published maps; West Bengal reach is text-only"
+  ],
+  [
+   "Routes A / B / C alignments, distances, times",
+   "A",
+   "indicative; Route B follows the Phodong–Kabi ridge"
+  ],
+  [
+   "Per-zone people counts in the Rescue Team view",
+   "S",
+   "SIMULATED — no verified live crowd sensing"
+  ],
+  [
+   "River-level slider states",
+   "S",
+   "UI demonstration only"
+  ]
+ ]
+}
