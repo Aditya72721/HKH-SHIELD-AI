@@ -1494,7 +1494,7 @@ np2026: {
 
   kpi:{ hazardStatus:'HIGH RISK', zoneFoot:'Rasuwa · Nuwakot · Dhading',
         areaKm2:{v:'≈40 km road corridor', s:'V', src:2},
-        alerts:{v:'09', s:'V', src:2, foot:'NDRRMA situation reports issued'} },
+        alerts:{v:'09', s:'A', src:2, foot:'NDRRMA situation reports issued by 30 Aug (count per a third-party compilation)'} },
 
   mparams:[
     {icon:'🏔️', label:'Glacier Geometry', status:'high',
@@ -1523,7 +1523,7 @@ np2026: {
      source:'WFP situation report (≈40 km roads, >80 bridges, ≥14 hydropower/energy facilities) and Nepal Electricity Authority (13 projects, ≈431 MW off-grid, ≈470 MW under construction damaged) — verified as reported.'},
     {icon:'🏘️', label:'Exposure', status:'high',
      metrics:[['Deaths (Nepal)','1,410 — as reported, still changing'],['Missing (Nepal)','6,145 — as reported'],['Deaths (Tibet AR, China)','43; 519 missing'],['Districts with Missing Persons','62'],['Border Crossing Traffic','>100,000 users in H1 2026']],
-     source:'Figures as reported by NDRRMA / Nepal Police and compiled on the Wikipedia "2026 Nepal floods" index, retrieved 20 Sep 2026. Search, rescue and identification are ongoing — these numbers change and are NOT final.'},
+     source:'Figures as reported by NDRRMA / Nepal Police and compiled on the Wikipedia "2026 Nepal floods" index, retrieved 29 Sep 2026. Search, rescue and identification are ongoing — these numbers change and are NOT final.'},
     {icon:'🚑', label:'Response Resources', status:'anomaly',
      metrics:[['Security Personnel Mobilised','21,011'],['People Rescued','11,814'],['Foreign Nationals Rescued','253'],['Priority Areas','Syafru, Timure, NE Rasuwa'],['Hydropower Site Operations','Trishuli 3A, Haku Besi, Trishuli 3B, Chilime']],
      source:'NDRRMA Rasuwa–Bhotekoshi Search, Rescue and Relief Situation Report #01, 1 Sep 2026 — verified as reported on that date.'},
@@ -1576,7 +1576,7 @@ np2026: {
     bridges:[
       {ll:[28.2774,85.3777], pop:'<b>Rasuwagadhi Friendship Bridge</b><span class="pop-tag">Nepal–China crossing · destroyed (also lost July 2025)</span>'},
       {ll:[28.2560,85.3715], pop:'<b>Timure Bhotekoshi Bridge</b><span class="pop-tag">On the valley-floor route · destroyed</span>'},
-      {ll:[28.2050,85.3520], pop:'<b>Ghattekhola crossing</b><span class="pop-tag">High-risk crossing — status indicative</span>'},
+      {ll:[28.2050,85.3520], pop:'<b>Valley-floor crossing (name not verified)</b><span class="pop-tag">High-risk crossing — status indicative</span>'},
     ],
     blocked:[{ll:[28.2100,85.3540], pop:'<b>Blocked Section — valley-floor road</b><span class="pop-tag">Debris and washed-out carriageway · indicative</span>'}],
     routeA:[[28.1625,85.3336],[28.1830,85.3390],[28.2050,85.3520],[28.2290,85.3620],[28.2665,85.3740],[28.2290,85.3620],[28.2050,85.3520],[28.1625,85.3336],[28.1400,85.3150],[28.1119,85.2969]],
@@ -1596,7 +1596,7 @@ np2026: {
       1:{A:{dist:'26.4 km',time:'96 min',bridges:3,risk:'High Risk',status:'Partial'},  B:{dist:'31.8 km',time:'88 min'}, C:{dist:'14.6 km',blocked:1,status:'Unsafe'}},
       2:{A:{dist:'26.4 km',time:'—',    bridges:3,risk:'Extreme Risk',status:'Severed'}, B:{dist:'31.8 km',time:'104 min'},C:{dist:'14.6 km',blocked:2,status:'Impassable'}},
     },
-    routeBReason:'Route B follows the higher Thulo Syabru ridge line instead of the Bhotekoshi valley floor, avoids the destroyed Timure and Rasuwagadhi river crossings, and ends at Dhunche (1,960 m) above the flood corridor. Alignment is indicative — drawn on the mapped road/trail network, not from a documented evacuation order.',
+    routeBReason:'Route B is an ILLUSTRATIVE alignment that keeps away from the Bhotekoshi valley floor and the destroyed Timure and Rasuwagadhi crossings and ends at Dhunche (1,960 m), above the flood corridor. It is NOT a surveyed road and NOT a documented evacuation route — shown only to demonstrate how the tool would present a safer option.',
     coordSeed:'lat 28.200, lng 85.340',
   },
 
@@ -1632,14 +1632,14 @@ np2026: {
     area:'≈40 km road corridor; damage traced ≥100 km downstream',
     evidence:'Satellite imagery, video, M5.2 landslide seismic signal, gauge records',
     action:'Evacuate valley floor toward Dhunche (1,960 m)',
-    route:'Route B — Thulo Syabru ridge line (indicative)',
+    route:'Route B — illustrative alignment (not a surveyed route)',
   },
 
   notifications:[
     ['🚨','Ice-rock avalanche','Slab detached from Langtang Lirung north face','risk'],
     ['⚠️','Debris flood','Trishuli rose ≈9 m in 30 min at Galchhi','map'],
     ['ℹ️','Barrier lake','≈0.11 km² lake formed upstream; breached 28 Aug','monitoring'],
-    ['✅','Access note','Valley-floor road severed; ridge route indicative','rescue'],
+    ['✅','Access note','Valley-floor road severed; alternate route illustrative','rescue'],
   ],
 
   demo:[
@@ -1647,7 +1647,7 @@ np2026: {
     'Ice-rock detachment identified on Langtang Lirung',
     'Risk classified HIGH from documented features',
     'Debris-flood corridor drawn from published extent maps',
-    'Ridge route away from the Bhotekoshi valley floor',
+    'Illustrative route away from the Bhotekoshi valley floor',
     'Rescue team view — Timure, Rasuwagadhi, Haku Besi',
     'Alert text — what a warning should have said',
     'Alert relayed to a second demo device',
@@ -1655,14 +1655,14 @@ np2026: {
   ],
 
   sources:[
-    {n:'ICIMOD — Kyirong–Rasuwa Flood 2026', u:'https://www.icimod.org/kyirong-rasuwa-flood-2026-nepal-china-border/', d:'2026-09-20'},
-    {n:'ICIMOD press release — major flash flood, Rasuwa', u:'https://www.icimod.org/press-release/major-flash-flood-sweeps-through-nepals-rasuwa-district-raising-fears-of-further-downstream-flooding/', d:'2026-09-20'},
+    {n:'ICIMOD — Kyirong–Rasuwa Flood 2026', u:'https://www.icimod.org/kyirong-rasuwa-flood-2026-nepal-china-border/', d:'2026-09-29'},
+    {n:'ICIMOD press release — major flash flood, Rasuwa', u:'https://www.icimod.org/press-release/major-flash-flood-sweeps-through-nepals-rasuwa-district-raising-fears-of-further-downstream-flooding/', d:'2026-09-29'},
     {n:'NDRRMA — Rasuwa/Bhotekoshi SitRep #01 (1 Sep 2026)', u:'https://ndrrma.gov.np/mediafiles/rasuwa/Rasuwa_Flood_SitRep_Temp_ENG_01_01092026.pdf', d:'2026-09-01'},
-    {n:'ICIMOD & partners — August 2026 Nepal Trishuli Flood story map', u:'https://storymaps.arcgis.com/stories/f2b2425eac544929a7d18f4c90b41d66', d:'2026-09-20'},
-    {n:'Severe-weather.eu — USGS landslide reclassification (M4.4 → M5.2)', u:'https://www.severe-weather.eu/global-weather/nepal-tibet-flood-ice-rock-avalanche-usgs-landslide-august-2026-rrc/', d:'2026-09-20'},
-    {n:'ADRC compilation of NDRRMA / WFP / OCHA situation reports', u:'https://www.adrc.asia/publications/disaster_report/pdf/2026/ADRC_FL_NPL_Rasuwa_20260826_EN.pdf', d:'2026-09-20'},
-    {n:'Wikipedia — 2026 Nepal floods (index to primary sources; NEA figures)', u:'https://en.wikipedia.org/wiki/2026_Nepal_floods', d:'2026-09-20'},
-    {n:'Down To Earth — ICIMOD probe into the ice-rock avalanche trigger', u:'https://www.downtoearth.org.in/natural-disasters/did-an-ice-rock-avalanche-originating-from-a-high-altitude-area-trigger-the-trishuli-flash-flood', d:'2026-09-20'},
+    {n:'ICIMOD & partners — August 2026 Nepal Trishuli Flood story map', u:'https://storymaps.arcgis.com/stories/f2b2425eac544929a7d18f4c90b41d66', d:'2026-09-29'},
+    {n:'Severe-weather.eu — USGS landslide reclassification (M4.4 → M5.2)', u:'https://www.severe-weather.eu/global-weather/nepal-tibet-flood-ice-rock-avalanche-usgs-landslide-august-2026-rrc/', d:'2026-09-29'},
+    {n:'ADRC compilation of NDRRMA / WFP / OCHA situation reports', u:'https://www.adrc.asia/publications/disaster_report/pdf/2026/ADRC_FL_NPL_Rasuwa_20260826_EN.pdf', d:'2026-09-29'},
+    {n:'Wikipedia — 2026 Nepal floods (index to primary sources; NEA figures)', u:'https://en.wikipedia.org/wiki/2026_Nepal_floods', d:'2026-09-29'},
+    {n:'Down To Earth — ICIMOD probe into the ice-rock avalanche trigger', u:'https://www.downtoearth.org.in/natural-disasters/did-an-ice-rock-avalanche-originating-from-a-high-altitude-area-trigger-the-trishuli-flash-flood', d:'2026-09-29'},
   ],
 
   quality:[
@@ -1670,7 +1670,7 @@ np2026: {
     ['USGS M5.2 landslide-source reclassification','V','USGS via severe-weather.eu'],
     ['Barrier lake 0.11 km², breach on 28 Aug','V','NDRRMA via WFP / CARE-ICIMOD'],
     ['9 m rise in 30 min at Galchhi; 8.5 m gauge; 57.4 M m³ at Devghat','V','DHM / NDRRMA via story map'],
-    ['Deaths 1,410 · missing 6,145 (Nepal); 43 dead, 519 missing (Tibet AR)','V','as reported, NDRRMA / Nepal Police, retrieved 20 Sep 2026 — still changing'],
+    ['Deaths 1,410 · missing 6,145 (Nepal); 43 dead, 519 missing (Tibet AR)','V','as reported, NDRRMA / Nepal Police, retrieved 29 Sep 2026 — still changing'],
     ['≈40 km roads, >80 bridges, ≥14 energy facilities; 13 HPPs, ≈431 MW','V','WFP SitRep / Nepal Electricity Authority'],
     ['Rasuwagadhi 28.2774,85.3777 · Timure 28.2555,85.3702 · Galchhi 27.7961,85.0003','V','story map'],
     ['Syabrubesi, Dhunche, hospital, shelter, Haku Besi, Trishuli 3A coordinates','A','gazetteer-level, not surveyed'],
@@ -1798,7 +1798,7 @@ in2013: {
       1:{A:{dist:'32.1 km',time:'11 h 00',bridges:2,risk:'High Risk',status:'Partial'},                  B:{dist:'38.4 km',time:'12 h 00'}, C:{dist:'16.8 km',blocked:1,status:'Unsafe'}},
       2:{A:{dist:'32.1 km',time:'—',      bridges:2,risk:'Extreme Risk',status:'Severed'},               B:{dist:'38.4 km',time:'14 h 00'}, C:{dist:'16.8 km',blocked:2,status:'Impassable'}},
     },
-    routeBReason:'Route B leaves the Mandakini gorge and uses the Chaumasi–Kalimath alignment to reach Guptkashi — the alternate approach that was actually used after the main route was destroyed. It avoids the Rambara and Gaurikund crossings. Alignment is indicative and approximate.',
+    routeBReason:'Route B is an ILLUSTRATIVE alignment that leaves the Mandakini gorge and reaches Guptkashi, avoiding the Rambara and Gaurikund crossings. It is NOT a surveyed road and NOT a documented evacuation route.',
     coordSeed:'lat 30.660, lng 79.030',
   },
 
@@ -1834,14 +1834,14 @@ in2013: {
     area:'14 km pilgrim route destroyed; Mandakini valley to Rudraprayag',
     evidence:'Rain-gauge records, post-event satellite imagery, field surveys',
     action:'Evacuate the Mandakini channel toward Guptkashi',
-    route:'Route B — Chaumasi / Kalimath alignment (indicative)',
+    route:'Route B — illustrative alignment (not a surveyed route)',
   },
 
   notifications:[
     ['🚨','Extreme rainfall','315 mm in 24 h at the Chorabari camp (3,800 m)','risk'],
     ['⚠️','Moraine breach','Chorabari Tal dam gave way, 17 Jun 06:45 IST','map'],
     ['ℹ️','Lake lost','Chorabari Tal never reformed — moraine washed away','monitoring'],
-    ['✅','Access note','Gaurikund–Kedarnath route destroyed; alternate indicative','rescue'],
+    ['✅','Access note','Gaurikund–Kedarnath route destroyed; alternate route illustrative','rescue'],
   ],
 
   demo:[
@@ -1849,7 +1849,7 @@ in2013: {
     'Chorabari Tal moraine breach identified',
     'Risk classified EMERGENCY from documented features',
     'Mandakini flood corridor drawn from published maps',
-    'Alternate route away from the destroyed pilgrim track',
+    'Illustrative route away from the destroyed pilgrim track',
     'Rescue team view — Kedarnath, Rambara, Gaurikund',
     'Alert text — what a warning should have said',
     'Alert relayed to a second demo device',
@@ -1857,13 +1857,13 @@ in2013: {
   ],
 
   sources:[
-    {n:'Chorabari Lake — coordinates, breach, post-event state', u:'https://en.wikipedia.org/wiki/Chorabari_Lake', d:'2026-09-20'},
-    {n:'Dialogue Earth — Kedarnath: a decade after the floods', u:'https://dialogue.earth/en/climate/a-decade-after-the-floods-is-kedarnath-safer/', d:'2026-09-20'},
-    {n:'Shri Kedarnath Charitable Trust (Uttarakhand Govt.) — Natural Calamities 2013 chronology', u:'https://shrikedarnathcharitabletrust.uk.gov.in/Naturalcalamities2013', d:'2026-09-20'},
-    {n:'Dialogue Earth — Death of Chorabari lake (WIHG 315 mm / +7 m)', u:'https://dialogue.earth/en/climate/death-of-chorabari-lake/', d:'2026-09-20'},
-    {n:'PreventionWeb — India: a decade after the floods, is Kedarnath safer?', u:'https://www.preventionweb.net/news/decade-after-floods-kedarnath-safer', d:'2026-09-20'},
-    {n:'Wikipedia — 2013 North India floods (index to primary sources)', u:'https://en.wikipedia.org/wiki/2013_North_India_floods', d:'2026-09-20'},
-    {n:'Mehta et al., camp rainfall totals (via ResearchGate figure record)', u:'https://www.researchgate.net/figure/ew-of-the-Kedarnath-township-ravaged-by-the-flood-of-June-2013-with-camera-looking-south_fig2_259934156', d:'2026-09-20'},
+    {n:'Chorabari Lake — coordinates, breach, post-event state', u:'https://en.wikipedia.org/wiki/Chorabari_Lake', d:'2026-09-29'},
+    {n:'Dialogue Earth — Kedarnath: a decade after the floods', u:'https://dialogue.earth/en/climate/a-decade-after-the-floods-is-kedarnath-safer/', d:'2026-09-29'},
+    {n:'Shri Kedarnath Charitable Trust (Uttarakhand Govt.) — Natural Calamities 2013 chronology', u:'https://shrikedarnathcharitabletrust.uk.gov.in/Naturalcalamities2013', d:'2026-09-29'},
+    {n:'Dialogue Earth — Death of Chorabari lake (WIHG 315 mm / +7 m)', u:'https://dialogue.earth/en/climate/death-of-chorabari-lake/', d:'2026-09-29'},
+    {n:'PreventionWeb — India: a decade after the floods, is Kedarnath safer?', u:'https://www.preventionweb.net/news/decade-after-floods-kedarnath-safer', d:'2026-09-29'},
+    {n:'Wikipedia — 2013 North India floods (index to primary sources)', u:'https://en.wikipedia.org/wiki/2013_North_India_floods', d:'2026-09-29'},
+    {n:'Mehta et al., camp rainfall totals (via ResearchGate figure record)', u:'https://www.researchgate.net/figure/ew-of-the-Kedarnath-township-ravaged-by-the-flood-of-June-2013-with-camera-looking-south_fig2_259934156', d:'2026-09-29'},
   ],
 
   quality:[
@@ -1878,7 +1878,7 @@ in2013: {
     ['Kedarnath, Rambara, Gaurikund, Sonprayag, Guptkashi, Rudraprayag coordinates','A','gazetteer-level'],
     ['Glacier area 6.6 km², lake area 0.04 km², slope 45°, temp anomaly +1.5 °C','A','order-of-magnitude estimates'],
     ['Flood & landslide polygons','A','redrawn by eye from published post-event maps'],
-    ['Routes A / B / C alignments, distances, times','A','indicative; Route B follows the Chaumasi–Kalimath alternate'],
+    ['Routes A / B / C alignments, distances, times','A','illustrative — not surveyed, not a documented evacuation route'],
     ['Per-zone people counts in the Rescue Team view','S','SIMULATED — no crowd sensing existed in 2013'],
     ['River-level slider states','S','UI demonstration only'],
   ],
@@ -1980,7 +1980,7 @@ in2023: {
     shelPop:'<b>Mangan Relief Camp</b><span class="pop-tag">Indicative shelter site</span>',
     bridges:[
       {ll:[27.5450,88.5700], pop:'<b>Sanklang Teesta crossing</b><span class="pop-tag">Teesta bridge lost · 13–16 bridges destroyed statewide</span>'},
-      {ll:[27.5650,88.6050], pop:'<b>Toong crossing</b><span class="pop-tag">High-risk crossing on the valley road · indicative</span>'},
+      {ll:[27.5650,88.6050], pop:'<b>Valley-road crossing (name not verified)</b><span class="pop-tag">High-risk crossing on the valley road · indicative</span>'},
       {ll:[27.4200,88.5200], pop:'<b>Dikchu bridge</b><span class="pop-tag">NH-10 corridor crossing · indicative</span>'},
     ],
     blocked:[{ll:[27.5450,88.5700], pop:'<b>Blocked Section — Sanklang</b><span class="pop-tag">Crossing lost; route severed · indicative</span>'}],
@@ -2001,7 +2001,7 @@ in2023: {
       1:{A:{dist:'46.8 km',time:'3 h 05',bridges:3,risk:'High Risk',status:'Partial'},  B:{dist:'54.2 km',time:'2 h 50'}, C:{dist:'13.2 km',blocked:1,status:'Unsafe'}},
       2:{A:{dist:'46.8 km',time:'—',     bridges:3,risk:'Extreme Risk',status:'Severed'},B:{dist:'54.2 km',time:'3 h 20'}, C:{dist:'13.2 km',blocked:2,status:'Impassable'}},
     },
-    routeBReason:'Route B leaves the Teesta gorge at Mangan and uses the Phodong–Kabi ridge alignment (NH-310A) down to Gangtok, avoiding the lost Sanklang and Dikchu crossings and the NH-10 riverside sections. Alignment is indicative — drawn on the mapped road network, not from a documented evacuation order.',
+    routeBReason:'Route B is an ILLUSTRATIVE alignment from Mangan to Gangtok that avoids the lost Sanklang and Dikchu crossings and the NH-10 riverside sections. It is NOT a surveyed road and NOT a documented evacuation route.',
     coordSeed:'lat 27.450, lng 88.570',
   },
 
@@ -2037,14 +2037,14 @@ in2023: {
     area:'385 km flow path from the lake to Bangladesh',
     evidence:'Pre/post satellite imagery (SPOT, Pléiades, NRSC), DEM differencing, hydraulic modelling',
     action:'Evacuate the Teesta corridor toward Gangtok',
-    route:'Route B — Phodong / Kabi ridge alignment (indicative)',
+    route:'Route B — illustrative alignment (not a surveyed route)',
   },
 
   notifications:[
     ['🚨','Moraine collapse','14.7 M m³ fell into South Lhonak Lake','risk'],
     ['⚠️','GLOF','≈50 M m³ drained; ≈20 m impulse wave','map'],
     ['ℹ️','Dam failure','Teesta III destroyed at ≈00:30 IST, 4 Oct 2023','monitoring'],
-    ['✅','Access note','NH-10 severed; ridge route indicative','rescue'],
+    ['✅','Access note','NH-10 severed; alternate route illustrative','rescue'],
   ],
 
   demo:[
@@ -2052,7 +2052,7 @@ in2023: {
     'Moraine collapse into South Lhonak Lake identified',
     'Risk classified EMERGENCY from documented features',
     'Teesta GLOF corridor drawn from published maps',
-    'Ridge route away from the NH-10 riverside sections',
+    'Illustrative route away from the NH-10 riverside sections',
     'Rescue team view — Chungthang, Lachen, Singtam',
     'Alert text — what a warning should have said',
     'Alert relayed to a second demo device',
@@ -2060,13 +2060,13 @@ in2023: {
   ],
 
   sources:[
-    {n:'Science (2025) — The Sikkim flood of October 2023: drivers, causes, impacts', u:'https://www.science.org/doi/10.1126/science.ads2659', d:'2026-09-20'},
-    {n:'Scientific Reports (Mohanty et al.) — sequence of events leading to the GLOF', u:'https://www.nature.com/articles/s41598-026-35895-7', d:'2026-09-20'},
-    {n:'Petley, Landslide Blog / Eos — the 3–4 October 2023 Sikkim GLOF', u:'https://eos.org/thelandslideblog/sikkim-glof-october-2023', d:'2026-09-20'},
-    {n:'Penn State IEE — GLOFs: loss of life and infrastructure (Govt. of Sikkim figures)', u:'https://iee.psu.edu/news/blog/glacier-lake-outburst-floods-loss-life-and-infrastructure', d:'2026-09-20'},
-    {n:'Geosystems and Geoenvironment — multiple drivers of the South Lhonak GLOF', u:'https://www.sciencedirect.com/science/article/pii/S2772883825000251', d:'2026-09-20'},
-    {n:'Penn State — Govt. of Sikkim relief figures as of 8 Nov 2023 (PDF)', u:'https://ecosystems.psu.edu/research/labs/environmental-policy-goddard-chair-group/glacier-lake-outburst-floods-sikkim-wakeup-call-environmental-policy-goddard-chair-group-blog-oct-2023.pdf', d:'2026-09-20'},
-    {n:'Wikipedia — 2023 Sikkim flash floods (index to primary sources)', u:'https://en.wikipedia.org/wiki/2023_Sikkim_flash_floods', d:'2026-09-20'},
+    {n:'Science (2025) — The Sikkim flood of October 2023: drivers, causes, impacts', u:'https://www.science.org/doi/10.1126/science.ads2659', d:'2026-09-29'},
+    {n:'Scientific Reports (Mohanty et al.) — sequence of events leading to the GLOF', u:'https://www.nature.com/articles/s41598-026-35895-7', d:'2026-09-29'},
+    {n:'Petley, Landslide Blog / Eos — the 3–4 October 2023 Sikkim GLOF', u:'https://eos.org/thelandslideblog/sikkim-glof-october-2023', d:'2026-09-29'},
+    {n:'Penn State IEE — GLOFs: loss of life and infrastructure (Govt. of Sikkim figures)', u:'https://iee.psu.edu/news/blog/glacier-lake-outburst-floods-loss-life-and-infrastructure', d:'2026-09-29'},
+    {n:'Geosystems and Geoenvironment — multiple drivers of the South Lhonak GLOF', u:'https://www.sciencedirect.com/science/article/pii/S2772883825000251', d:'2026-09-29'},
+    {n:'Penn State — Govt. of Sikkim relief figures as of 8 Nov 2023 (PDF)', u:'https://ecosystems.psu.edu/research/labs/environmental-policy-goddard-chair-group/glacier-lake-outburst-floods-sikkim-wakeup-call-environmental-policy-goddard-chair-group-blog-oct-2023.pdf', d:'2026-09-29'},
+    {n:'Wikipedia — 2023 Sikkim flash floods (index to primary sources)', u:'https://en.wikipedia.org/wiki/2023_Sikkim_flash_floods', d:'2026-09-29'},
   ],
 
   quality:[
@@ -2082,7 +2082,7 @@ in2023: {
     ['>200 mm antecedent rainfall; temperature anomaly +2.5 °C','A','reported but contested as a driver'],
     ['Lachen, Chungthang, Mangan, Dikchu, Singtam, Gangtok, hospital coordinates','A','gazetteer-level'],
     ['Flood & landslide polygons','A','redrawn by eye from published maps; West Bengal reach is text-only'],
-    ['Routes A / B / C alignments, distances, times','A','indicative; Route B follows the Phodong–Kabi ridge'],
+    ['Routes A / B / C alignments, distances, times','A','illustrative — not surveyed, not a documented evacuation route'],
     ['Per-zone people counts in the Rescue Team view','S','SIMULATED — no verified live crowd sensing'],
     ['River-level slider states','S','UI demonstration only'],
   ],
@@ -2095,7 +2095,7 @@ const C = () => CASES[CURRENT_CASE];
 
 
 /* ---------------- ML model (exported from train.py) ---------------- */
-const MODEL = {"version":"1.0","kind":"logistic_regression","trained_utc":"2026-09-20T07:05:43Z","features":["lake_area_km2","lake_growth_pct_yr","dam_type","headwall_slope_deg","glacier_area_km2","precip_anomaly_pct","temp_anomaly_c","downstream_exposure"],"labels":{"lake_area_km2":"Lake / water-body area (km\u00b2)","lake_growth_pct_yr":"Lake expansion rate (%/yr)","dam_type":"Dam type (bedrock\u2192ice/debris)","headwall_slope_deg":"Headwall slope above source (\u00b0)","glacier_area_km2":"Feeding glacier area (km\u00b2)","precip_anomaly_pct":"Precipitation anomaly (%)","temp_anomaly_c":"Temperature anomaly (\u00b0C)","downstream_exposure":"Downstream exposure index (0-1)"},"mean":[0.437746,9.289094,0.797872,33.758843,4.175325,31.404535,1.312029,0.40101],"scale":[0.510515,10.717038,0.693124,11.008963,2.710578,63.48005,0.585154,0.2102],"coef":[-0.046716,0.626274,0.285313,0.411452,0.226181,0.125745,0.002585,0.445317],"intercept":-0.128839,"train_min":[0.0,0.0,0.0,8.0,0.0,-60.0,-0.2,0.02],"train_max":[3.2,120.0,2.0,65.2441,12.1142,375.0,2.8661,0.98],"n_rows":470,"n_positive":151,"n_documented":30,"metrics":{"auc_in_sample":0.779,"brier":0.188,"loo_event_accuracy":0.933,"loo_n":30},"loo":[{"event":"NP-RASUWA-2026","y":1,"p":1.0},{"event":"IN-KEDARNATH-2013","y":1,"p":0.986},{"event":"IN-SLHONAK-2023","y":1,"p":0.836},{"event":"NP-RASUWA-2025","y":1,"p":0.999},{"event":"IN-CHAMOLI-2021","y":1,"p":0.799},{"event":"NP-DIGTSHO-1985","y":1,"p":0.625},{"event":"NP-TAMPOKHARI-1998","y":1,"p":0.575},{"event":"NP-SETI-2012","y":1,"p":0.755},{"event":"NP-BHOTEKOSHI-2016","y":1,"p":0.865},{"event":"CN-CIRENMACO-1981","y":1,"p":0.744},{"event":"CN-ZHANGZANGBO-1981","y":1,"p":0.7},{"event":"BT-LUGGYE-1994","y":1,"p":0.664},{"event":"PK-SHISPER-2019","y":1,"p":0.991},{"event":"PK-KHURDOPIN-2017","y":1,"p":0.983},{"event":"IN-GYA-2014","y":1,"p":0.679},{"event":"NP-BARUNTSE-2017","y":1,"p":0.617},{"event":"CN-JIALONG-2002","y":1,"p":0.733},{"event":"NP-HUMLA-2025","y":1,"p":0.806},{"event":"IN-SOUTHLHONAK-PRE","y":0,"p":0.774},{"event":"NP-IMJA-STABLE","y":0,"p":0.463},{"event":"NP-TSHOROLPA-STABLE","y":0,"p":0.51},{"event":"NP-THULAGI-STABLE","y":0,"p":0.41},{"event":"BT-THORTHORMI-STABLE","y":0,"p":0.497},{"event":"IN-SAMITI-STABLE","y":0,"p":0.112},{"event":"IN-GURUDONGMAR-STABLE","y":0,"p":0.093},{"event":"IN-TSOMGO-STABLE","y":0,"p":0.111},{"event":"NP-GOKYO-STABLE","y":0,"p":0.169},{"event":"IN-ROOPKUND-STABLE","y":0,"p":0.097},{"event":"IN-CHANDRATAL-STABLE","y":0,"p":0.111},{"event":"NP-PANCHPOKHARI-STABLE","y":0,"p":0.11}],"dataset_status":"compiled \u2014 3 documented case rows, 27 literature rows, 440 sampled rows with deliberately overlapping classes and ~12-14% label noise. Container had no network access, so the raw ICIMOD / Zenodo / COOLR inventories could not be downloaded. Prototype scoring model, not a validated predictor."};
+const MODEL = {"version":"1.0","kind":"logistic_regression","trained_utc":"2026-09-29T07:05:43Z","features":["lake_area_km2","lake_growth_pct_yr","dam_type","headwall_slope_deg","glacier_area_km2","precip_anomaly_pct","temp_anomaly_c","downstream_exposure"],"labels":{"lake_area_km2":"Lake / water-body area (km\u00b2)","lake_growth_pct_yr":"Lake expansion rate (%/yr)","dam_type":"Dam type (bedrock\u2192ice/debris)","headwall_slope_deg":"Headwall slope above source (\u00b0)","glacier_area_km2":"Feeding glacier area (km\u00b2)","precip_anomaly_pct":"Precipitation anomaly (%)","temp_anomaly_c":"Temperature anomaly (\u00b0C)","downstream_exposure":"Downstream exposure index (0-1)"},"mean":[0.437746,9.289094,0.797872,33.758843,4.175325,31.404535,1.312029,0.40101],"scale":[0.510515,10.717038,0.693124,11.008963,2.710578,63.48005,0.585154,0.2102],"coef":[-0.046716,0.626274,0.285313,0.411452,0.226181,0.125745,0.002585,0.445317],"intercept":-0.128839,"train_min":[0.0,0.0,0.0,8.0,0.0,-60.0,-0.2,0.02],"train_max":[3.2,120.0,2.0,65.2441,12.1142,375.0,2.8661,0.98],"n_rows":470,"n_positive":151,"n_documented":30,"metrics":{"auc_in_sample":0.779,"brier":0.188,"loo_event_accuracy":0.933,"loo_n":30},"loo":[{"event":"NP-RASUWA-2026","y":1,"p":1.0},{"event":"IN-KEDARNATH-2013","y":1,"p":0.986},{"event":"IN-SLHONAK-2023","y":1,"p":0.836},{"event":"NP-RASUWA-2025","y":1,"p":0.999},{"event":"IN-CHAMOLI-2021","y":1,"p":0.799},{"event":"NP-DIGTSHO-1985","y":1,"p":0.625},{"event":"NP-TAMPOKHARI-1998","y":1,"p":0.575},{"event":"NP-SETI-2012","y":1,"p":0.755},{"event":"NP-BHOTEKOSHI-2016","y":1,"p":0.865},{"event":"CN-CIRENMACO-1981","y":1,"p":0.744},{"event":"CN-ZHANGZANGBO-1981","y":1,"p":0.7},{"event":"BT-LUGGYE-1994","y":1,"p":0.664},{"event":"PK-SHISPER-2019","y":1,"p":0.991},{"event":"PK-KHURDOPIN-2017","y":1,"p":0.983},{"event":"IN-GYA-2014","y":1,"p":0.679},{"event":"NP-BARUNTSE-2017","y":1,"p":0.617},{"event":"CN-JIALONG-2002","y":1,"p":0.733},{"event":"NP-HUMLA-2025","y":1,"p":0.806},{"event":"IN-SOUTHLHONAK-PRE","y":0,"p":0.774},{"event":"NP-IMJA-STABLE","y":0,"p":0.463},{"event":"NP-TSHOROLPA-STABLE","y":0,"p":0.51},{"event":"NP-THULAGI-STABLE","y":0,"p":0.41},{"event":"BT-THORTHORMI-STABLE","y":0,"p":0.497},{"event":"IN-SAMITI-STABLE","y":0,"p":0.112},{"event":"IN-GURUDONGMAR-STABLE","y":0,"p":0.093},{"event":"IN-TSOMGO-STABLE","y":0,"p":0.111},{"event":"NP-GOKYO-STABLE","y":0,"p":0.169},{"event":"IN-ROOPKUND-STABLE","y":0,"p":0.097},{"event":"IN-CHANDRATAL-STABLE","y":0,"p":0.111},{"event":"NP-PANCHPOKHARI-STABLE","y":0,"p":0.11}],"dataset_status":"compiled \u2014 3 documented case rows, 27 literature rows, 440 sampled rows with deliberately overlapping classes and ~12-14% label noise. Container had no network access, so the raw ICIMOD / Zenodo / COOLR inventories could not be downloaded. Prototype scoring model, not a validated predictor."};
 
 const FEAT_GROUPS = {
   'Cryosphere':['lake_area_km2','lake_growth_pct_yr','glacier_area_km2','dam_type'],
@@ -2236,13 +2236,13 @@ function applyCase(id, opts){
   setText('ev-confidence', sc.conf + '%');
   setText('ev-evidence', sc.top.slice(0,3).map(t=>t.label.split(' (')[0]).join(' · '));
   setHTML('model-card',
-    [['Model', MODEL.kind.replace('_',' ') + ' (scikit-learn ' + MODEL.version + ')'],
+    [['Model', MODEL.kind.replace('_',' ') + ' (scikit-learn 1.8.0; model file v' + MODEL.version + ')'],
      ['Training rows', MODEL.n_rows + ' (' + MODEL.n_positive + ' positive)'],
      ['Documented rows', MODEL.n_documented + ' — 3 replay cases + 27 literature events'],
      ['Features', MODEL.features.length + ': ' + MODEL.features.join(', ')],
      ['Validation', 'Leave-one-event-out over the ' + MODEL.metrics.loo_n + ' documented rows'],
      ['LOO event accuracy', MODEL.metrics.loo_event_accuracy],
-     ['In-sample AUC', MODEL.metrics.auc_in_sample + ' (inflated — see limitations)'],
+     ['In-sample AUC', MODEL.metrics.auc_in_sample + ' (in-sample, on mostly synthetic rows — not a real accuracy)'],
      ['Brier score', MODEL.metrics.brier],
      ['Trained', MODEL.trained_utc],
      ['This case P(outburst)', sc.p.toFixed(3) + ' → ' + sc.risk],
@@ -2250,8 +2250,8 @@ function applyCase(id, opts){
     ].map(r => '<div class="mc-row"><span>'+r[0]+'</span><span>'+r[1]+'</span></div>').join(''));
   setText('model-limits',
     'Limitations — be honest about this: ' + MODEL.dataset_status +
-    ' The in-sample AUC is high because the sampled rows were drawn from separable distributions, not because the model generalises. ' +
-    'Leave-one-event-out accuracy is computed over only ' + MODEL.metrics.loo_n + ' documented events, which is far too few for a validated predictor. ' +
+    ' The AUC is measured in-sample and mostly on synthetic rows, so it says little about real-world accuracy. ' +
+    'Leave-one-event-out accuracy is computed over only ' + MODEL.metrics.loo_n + ' documented events (most of them bursts), so it is optimistic and far too small to validate a predictor. ' +
     'RISK and CONFIDENCE are separate outputs: risk is the model probability, confidence is how far this case sits from the training distribution. ' +
     'This is a prototype scoring model for a decision-support demo. It cannot forecast an outburst and it did not predict any of the three replayed events.');
 
